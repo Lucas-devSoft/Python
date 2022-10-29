@@ -1,7 +1,0 @@
-En Este primer proyecto realice una calculadora interactiva por consola con en el lenguaje puro de Python la idea es que el usuario interactue con el programa y obtenga resultados segun la opción que elija. Aun no esta terminada sin embargo en el proceso de finalizacion considero todos los errores pósibles para que cada acción erronea tire error y permita volver atras. 
-
-Esta Calculadora no es tan básica ya que no solamente cuenta con suma, resta, multiplicación y división, Le agregue Potenciación, Radicacion, Si un numero es PAR o IMPAR y si un número es primo de forma individual y por rango, en la opcion de PRIMARIDAD DE RANGO al ser muchos numeros se me ocurrio mostrar el resultado en un archivo externo TXT...
-
-
-
-
