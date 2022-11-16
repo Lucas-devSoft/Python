@@ -8,4 +8,4 @@ Esta Calculadora no es básica ya que no solamente cuenta con suma, resta, multi
 - Si un numero es PAR o IMPAR 
 - Si un número es primo de forma individual y por rango (2 - hasta donde ponga el usuario)
 
-El resultado de la función de los numeros primos crea un archivo externo escribiendo todos los resultados.
+El resultado de la función de los numeros primos por rango es exportado con la creación de un archivo externo.
