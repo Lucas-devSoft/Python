@@ -1,3 +1,7 @@
-En este proyecto del Formulario salio de un examen en el segundo parcial de la academia actual, utilize este mismo proyecto con el fin de mejorarlo y agregarle funciones y de la misma forma que se hace en el primer proyecto (Calculadora) es por consola para interactuar con el usuario y tampoco esta del todo finalizado faltan concluir con algunos detalles de bucles pero es funcional el programa .
+En este segundo proyecto en el que trabajo es un Formulario, se me solicito programarlo en un examen del terciario como un CENSO. 
 
-La idea del formulario salio de hacer un programa de CENSO en la que lo converti en un formulario que puede ser para guardar los datos en una BD sin embargo yo elegi guardar los datos (exportar) en un archivo JSON ya que los datos son guardados en un diccionario...
+Utilicé ese mismo proyecto del examen con el fin de mejorarlo y de la misma forma por consola para interactuar con el usuario, 
+
+La idea es que la informacion obtenida como respuesta en cada formulario los datos puedan ser guardados tanto en una BD o ser exportado en un archivo JSON. ya que los 
+
+datos son guardados como un diccionario.
