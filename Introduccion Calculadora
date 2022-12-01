@@ -1,11 +1,16 @@
-En este primer proyecto realice una calculadora interactiva por consola con en el lenguaje de programacion Python, la idea es que el usuario interactue con el programa
-y obtenga resultados segun la opción que elija. Trate de considerar todos los errores pósibles para que cada acción erronea libere un error!!. 
+En este primer proyecto realice una calculadora interactiva por consola con en el lenguaje de programacion Python, la idea es que el usuario interactue con ella y 
+obtenga resultados segun la opción que eliga. Considere todos los errores pósibles almenos eso traté para que cada acción erronea posible libere un error!!. 
 
-Esta Calculadora no es básica ya que no solamente cuenta con suma, resta, multiplicación y división. Le añadi las opciones (Funciones) :
+Esta Calculadora no es básica ya que no solamente cuenta con suma, resta, multiplicación y división. Le agregue mas opciones (Funciones) :
 
 - Potenciación
 - Radicación
 - Si un numero es PAR o IMPAR 
 - Si un número es primo de forma individual y por rango (2 - hasta donde ponga el usuario)
 
-El resultado de la función de los numeros primos por rango es exportado con la creación de un archivo externo.
+Considere añdirle tambien la funcion de que el usuario eliga si quiere guardar todas las operaciones que valla realizando en la calculadora en una Base de Datos.
+
+Esto mismo se le pregunta al Usuario luego de Solicitarle su nombre. En caso de no aceptar tener su historial de operaciones puede continuar usando la calculadora de
+todas formas. 
+
+
