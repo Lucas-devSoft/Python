@@ -7,7 +7,7 @@
 <ul>
     <li><a href = "#Descripción" > Descripción del Proyecto</a></li>
     <li><a href = "#Herramientas"> Herramientas utilizadas</a></li>
-    <li><a href = "#"> Funcionalidades</a>
+    <li><a href = "#Funcionalidades"> Funcionalidades</a>
         <ul>
             <li>Banner
                 <ul>
@@ -156,4 +156,8 @@ Es un ejemplo de como se subirá la insercion de los datos sin embargo a la hora
 <hr>
 
 <h2>Ejecución del Proyecto</h2>
+<p>Para una correcta funcionalidad del programa se debera tener instalado:<br>
+- <a href = "https://www.python.org/" type = "_blank">Python</a>
+- 
+</p>
 
