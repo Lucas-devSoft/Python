@@ -4,7 +4,7 @@
  
 ## Sección de Índices 
 
-- [Descripción del Proyecto](#Descripción)
+- [Descripción del Proyecto](#descripción-del-proyecto)
 - <a href = "#Herramientas"> Herramientas utilizadas</a>
 - <a href = "#Funcionalidades"> Funcionalidades</a>
   - Banner        
