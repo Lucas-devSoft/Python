@@ -1,37 +1,29 @@
 <img width = "950px" align = "center" src="https://github.com/Lucas-devSoft/Python/assets/111676352/69fa3548-30c5-4304-b9e1-01619683b517"></img> 
- 
-<h1 align = "center"> Proyecto Personal N°1 </h1>
- 
-<h2>Sección de Índices.</h2>
 
-<ul>
-    <li><a href = "#Descripción" > Descripción del Proyecto</a></li>
-    <li><a href = "#Herramientas"> Herramientas utilizadas</a></li>
-    <li><a href = "#Funcionalidades"> Funcionalidades</a>
-        <ul>
-            <li>Banner
-                <ul>
-                    <li>Conexión</li>
-                    <li>Sin conexion</li>
-                </ul>
-             </li>
-             <li>Menus</li>
-             <li>Mensajes de Errores</li>
-        </ul>
-    </li>     
-    <li><a href = "#"> Ejecución del Proyecto</a></li>
-    <li><a href = "#"> Desarrollador</a></li>
-</ul>
+# Primer Proyecto Personal
  
-<h2 id = "Descripción">Descripción del Proyecto</h2>
+## Sección de Índices 
+
+- [Descripción del Proyecto](#Descripción)
+- <a href = "#Herramientas"> Herramientas utilizadas</a>
+- <a href = "#Funcionalidades"> Funcionalidades</a>
+  - Banner        
+    - Conexión
+    - Sin conexion         
+  - Menus
+  - Mensajes de Errores
+- <a href = "#Ejecución"> Ejecución del Proyecto</a>
+- <a href = "#"> Desarrollador</a>
  
-<p>El proyecto está desarrollado en entorno Windows, su funcionamiento está diseñado para ejecutarse en la terminal de su sistema operativo. Es una simple imitación de una calculadora, salvo que lleva otras funcionalidades para retornar que la clásica calculadora, el usuario deberá optar por guardar o no su propio historial de operaciones en una base de datos que implemente.</p>
+## Descripción del Proyecto
+ 
+El proyecto está desarrollado en entorno Windows, su funcionamiento está diseñado para ejecutarse en la terminal de su sistema operativo. Es una simple imitación de una calculadora, salvo que lleva otras funcionalidades para retornar que la clásica calculadora, el usuario deberá optar por guardar o no su propio historial de operaciones en una base de datos que implemente.
  
 <h2 id = "Herrramientas">Herramientas Utilizadas</h2>
  
 <h3>Entorno Virtual</h3>
 
-<p>En el proyecto utilizo el entorno virtual para facilitar el acceso a la aplicación y no tener que descargar absolutamente nada en el sistema del usuario, ya que está todo instalado en el mismo entorno virtual que estoy dejando a descargar. <a href="#">Descargar</a> </p>
+<p>En el proyecto utilizo el entorno virtual para facilitar el acceso a la aplicación y no tener que descargar absolutamente nada en el sistema del usuario, ya que está todo instalado en el mismo entorno virtual que estoy dejando a descargar. <a href="#Ejecución">Descargar</a> </p>
  
 <h3>Módulos</h3>
  
@@ -155,12 +147,18 @@ Es un ejemplo de como se subirá la insercion de los datos sin embargo a la hora
 
 <hr>
 
-<h2>Ejecución del Proyecto</h2>
-<p>Para una correcta funcionalidad del programa se debera tener instalado:<br>
-- <a href = "https://www.python.org/" type = "_blank">Python</a>
-- 
-</p>
-De esta forma podremos activar el entorno virtual desde windows.
+<h2 id = "Ejecución" >Ejecución del Proyecto</h2>
+
+Para una correcta funcionalidad del programa se debera.
+
+<br>
+
+- Instalar o tener instalado Python (Ultima Versión) > <a href = "https://www.python.org/" type = "_blank">Descargalo Aquí.</a>
+
+<br>
+
+- Crear un Entorno virtual propio e instalar por PIP los modulos (colorama y pymongo) o aqui dejo el mio. <a href = ""> Descargalo Aquí.</a>
+
+Para activar el entorno virtual desde windows.
 <img src = "https://github.com/Lucas-devSoft/Python/assets/111676352/0c3d8fc2-11df-401d-9976-7c346ced3f13">
-
-
+Si descargaste mi entorno virtual los modulos ya estan instalados en caso contrario una vez que activamos el entorno virtual aparecera delante del Path (Nombre del entorno virtual) Path
