@@ -160,4 +160,7 @@ Es un ejemplo de como se subirá la insercion de los datos sin embargo a la hora
 - <a href = "https://www.python.org/" type = "_blank">Python</a>
 - 
 </p>
+De esta forma podremos activar el entorno virtual desde windows.
+<img src = "https://github.com/Lucas-devSoft/Python/assets/111676352/0c3d8fc2-11df-401d-9976-7c346ced3f13">
+
 
