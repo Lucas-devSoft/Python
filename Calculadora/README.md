@@ -5,45 +5,43 @@
 ## Sección de Índices 
 
 - [Descripción del Proyecto](#descripción-del-proyecto)
-- [Herramientas utilizadas](#descripción-del-proyecto)
-- [Funcionalidades](#descripción-del-proyecto)
+- [Herramientas utilizadas](#herramientas-utilizadas)
+- [Funcionalidades](#funcionalidades)
   - Banner        
     - Conexión
     - Sin conexion         
   - Menus
   - Mensajes de Errores
-- [Ejecución del Proyecto](#descripción-del-proyecto)
-- [Desarrollador]()
+- [Ejecución del Proyecto](#ejecución-del-proyecto)
+- [Desarrollador](#desarrollador)
  
 ## Descripción del Proyecto
  
 El proyecto está desarrollado en entorno Windows, su funcionamiento está diseñado para ejecutarse en la terminal de su sistema operativo. Es una simple imitación de una calculadora, salvo que lleva otras funcionalidades para retornar que la clásica calculadora, el usuario deberá optar por guardar o no su propio historial de operaciones en una base de datos que implemente.
  
-<h2 id = "Herrramientas">Herramientas Utilizadas</h2>
+## Herramientas Utilizadas
  
-<h3>Entorno Virtual</h3>
+### Entorno Virtual
 
-<p>En el proyecto utilizo el entorno virtual para facilitar el acceso a la aplicación y no tener que descargar absolutamente nada en el sistema del usuario, ya que está todo instalado en el mismo entorno virtual que estoy dejando a descargar. <a href="#Ejecución">Descargar</a> </p>
+En el proyecto utilizo el entorno virtual para facilitar el acceso a la aplicación y no tener que descargar absolutamente nada en el sistema del usuario, ya que está todo instalado en el mismo entorno virtual que estoy dejando a descargar. [Descargar](#ejecución-del-proyecto)
  
-<h3>Módulos</h3>
+### Módulos
  
-<p>En el proyecto utilizo los módulos <b>Colorama</b> y <b>pymongo</b> que son módulos que no vienen por defecto en Python.</p>
+En el proyecto utilizo los módulos **colorama** y **pymongo** que son módulos que no vienen por defecto en Python.
  
-<h3>Programación</h3>
+### Programación
  
-<p>El programa está codificado con el lenguaje de programación <b>Python</b> en el entorno de desarrollo <b>Visual Studio Code</b> separados por módulos para ahorrar líneas de código, mantener un código ordenado y facilitar cualquier futura mejora en el programa, implementando documentación a través de los comentarios.</p>
+El programa está codificado con el lenguaje de programación **Python** en el entorno de desarrollo **Visual Studio Code** separados por módulos para ahorrar líneas de código, mantener un código ordenado y facilitar cualquier futura mejora en el programa, implementando documentación a través de los comentarios.
  
-<h3>Base de Datos</h3>
+### Base de Datos
  
-<p>En todos los proyectos que vaya realizando, utilizo o utilizaré la base de datos <b>MongoDB</b> para aprender y comprender como se trabaja con la BD JSON.</p>
+En todos los proyectos que vaya realizando, utilizo o utilizaré la base de datos **MongoDB** para aprender y comprender como se trabaja con la BD JSON.
  
-<h2 id = "Funcionalidades">Funcionalidades</h2>
+## Funcionalidades
  
-<li><b>Banner</b></li>
+- Banner
 
-<br>
- 
-<p>La función del banner en el programa representa de alguna forma la muestra de los estados de conexión que va eligiendo el usuario hacia la base de datos, en caso de conectar se detalla la información del mismo y la información presentada es distinta si se conecta desde una base de datos con un nombre en específico o por defecto.</p>
+La función del banner en el programa representa de alguna forma la muestra de los estados de conexión que va eligiendo el usuario hacia la base de datos, en caso de conectar se detalla la información del mismo y la información presentada es distinta si se conecta desde una base de datos con un nombre en específico o por defecto.
  
 <li><b>Banner con Conexión</b></li>
 
