@@ -5,15 +5,15 @@
 ## Sección de Índices 
 
 - [Descripción del Proyecto](#descripción-del-proyecto)
-- <a href = "#Herramientas"> Herramientas utilizadas</a>
-- <a href = "#Funcionalidades"> Funcionalidades</a>
+- [Herramientas utilizadas](#descripción-del-proyecto)
+- [Funcionalidades](#descripción-del-proyecto)
   - Banner        
     - Conexión
     - Sin conexion         
   - Menus
   - Mensajes de Errores
-- <a href = "#Ejecución"> Ejecución del Proyecto</a>
-- <a href = "#"> Desarrollador</a>
+- [Ejecución del Proyecto](#descripción-del-proyecto)
+- [Desarrollador]()
  
 ## Descripción del Proyecto
  
