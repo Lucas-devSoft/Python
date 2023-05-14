@@ -29,8 +29,6 @@ En el proyecto utilizo el entorno virtual para facilitar el acceso a la aplicaci
  
 En el proyecto utilizo los módulos **colorama** y **pymongo** que son módulos que no vienen por defecto en Python, en caso de no querer descargar mi entorno virtual se deberan instalar en su sistema.
 
-``pip install colorama`` y ``pip install pymongo``
-
 ### Programación
  
 El programa está codificado con el lenguaje de programación **Python** en el entorno de desarrollo **Visual Studio Code** separados por módulos para ahorrar líneas de código, mantener un código ordenado y facilitar cualquier futura mejora en el programa retocando en partes específicas dejando comentarios como documentación.
@@ -116,16 +114,62 @@ La función de cada menú en el programa es para interactuar con el usuario y es
 
 ## Ejecución del Proyecto
 
-Para una correcta funcionalidad del programa se debera.
+Alternativas para el correcto funcionamiento del programa.
 
-<br>
+- Alternativa uno.
 
-- Instalar o tener instalado Python (Versión actual 3.11.3).  [Descargar Aquí](https://www.python.org/downloads/)
+1. Descargar el proyecto entero "Calculadora", contiene el entorno virtual ya con todo preparado para correr. [Descargalo Aquí](https://drive.google.com/drive/u/1/folders/1b8E-k7cfCAzpT5wKOZRedXX86UHuEL9j "Google Drive")
 
-<br>
+2. Estando en la carpeta raiz "Calculadora" activamos el entorno virtual. [+Info](https://docs.python.org/es/3/tutorial/venv.html)
+   
+En el CMD de Windows se activa de esta forma.
 
-- Descargar el entorno Virtual. <a href = ""> Descargalo Aquí.</a>
+   ``.env\Scripts\activate.bat``
 
-Para activar el entorno virtual desde windows.
-<img src = "https://github.com/Lucas-devSoft/Python/assets/111676352/0c3d8fc2-11df-401d-9976-7c346ced3f13">
-Si descargaste mi entorno virtual los modulos ya estan instalados en caso contrario una vez que activamos el entorno virtual aparecera delante del Path (Nombre del entorno virtual) Path
+En Unix o MacOS, ejecuta:
+
+   ``source .env/bin/activate``
+
+Cuando ingresamos correctamente al entorno virtual delante del Path nos aparecera el nombre del entorno de esta forma (.env) 
+
+![](https://github.com/Lucas-devSoft/Python/assets/111676352/0c3d8fc2-11df-401d-9976-7c346ced3f13)
+
+3. Ya podremos ejecutar el programa.
+
+   ``python Menu.py``
+
+4. Para desactivar el entorno virtual.
+
+   ``deactivate``
+
+- Alternativa dos.
+
+1. Se necesita tener instalado Python (Ultima Versión 3.11.3).  [Descargar de Aquí](https://www.python.org/downloads/ "Página oficial de Python") 
+
+2. ¿Descargaste solo los Scripts? ¿no queres instalar módulos en tu sistema?, creá tu propio entorno virtual en la carpeta raíz de los Scripts. 
+
+   ``python -m venv Nombre_del_entorno``
+
+3. Entramos al nuevo entorno virtual estando adentro es posible que se deba actualizar el PIP.
+
+En el CMD de Windows se activa de esta forma.
+
+   ``.env\Scripts\activate.bat``
+
+En Unix o MacOS, ejecuta:
+
+   ``source .env/Scripts/activate``
+
+Para actualizar el PIP se debera colocar el siguiente comando(Windows).
+
+   ``python -m pip install --upgrade pip``
+
+4. Una vez actualizado instalamos los módulos de trabajo
+
+   ``pip install colorama`` y ``pip install pymongo``
+   
+5. Ya podremos ejecutar el programa.
+
+   ``python Menu.py``
+   
+## Desarrollador
