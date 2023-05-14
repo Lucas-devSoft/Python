@@ -175,7 +175,7 @@ Alternativas para el correcto funcionamiento del programa.
 ## Desarrollador
 
 ![Open](https://github.com/Lucas-devSoft/Python/assets/111676352/6d78f829-b40e-4b95-9d98-c6ba05e26f03) <br>
-[Lucas Sanchez](https://www.linkedin.com/in/lucasdevsoft2022/ "Perfil Linkedin")  |  [Pagina Web](https://lucas-devsoft.github.io/CV/)
+     [Lucas Sanchez](https://www.linkedin.com/in/lucasdevsoft2022/ "Perfil Linkedin")   |   [Pagina Web](https://lucas-devsoft.github.io/CV/)
 
 
 
