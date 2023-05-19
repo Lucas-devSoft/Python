@@ -8,51 +8,50 @@
 - [Herramientas utilizadas](#herramientas-utilizadas)
 - [Funcionalidades](#funcionalidades)
   - Banner        
-    - Conexión
+    - Con Conexión
     - Sin conexion         
-  - Menus
+  - Menues
   - Mensajes de Errores
 - [Ejecución del Proyecto](#ejecución-del-proyecto)
 - [Desarrollador](#desarrollador)
  
 ## Descripción del Proyecto
  
-El proyecto está desarrollado en entorno Windows, su funcionamiento está diseñado para ejecutarse en la terminal de su sistema operativo. Es una simple imitación de una calculadora, salvo que lleva otras funcionalidades para retornar que la clásica calculadora, el usuario deberá optar por guardar o no su historial de operaciones en una base de datos que implemente.
+Está desarrollado en entorno Windows, está diseñado para ejecutarse en la terminal del sistema operativo. El proyecto es una simple imitación de una calculadora, salvo que lleva otras funcionalidades para retornar que la clásica calculadora, el usuario interactuará con ella y deberá de elegir  si quiere guardar o no la información de sus operaciones a través de la base de datos MongoDB que implemente.
  
 ## Herramientas Utilizadas
  
 ### Entorno Virtual
 
-En el proyecto utilizo el entorno virtual para facilitar el acceso a la aplicación y no tener que descargar absolutamente nada en el sistema del usuario, ya que está todo instalado en el mismo entorno virtual que estoy dejando abajo. [Descargar](#ejecución-del-proyecto)
+En el proyecto utilizo los módulos necesarios a través de un entorno virtual para facilitar el acceso a la aplicación y no tener que descargar absolutamente nada en el sistema del usuario, ya que está todo instalado en el mismo entorno virtual para correrlo en consola de sus sistema, si le apetece probarlo lo estare dejando abajo. [Descargar](#ejecución-del-proyecto)
  
 ### Módulos
  
-En el proyecto utilizo los módulos **colorama** y **pymongo** que son módulos que no vienen por defecto en Python, en caso de no querer descargar mi entorno virtual se deberan instalar en su sistema.
+En el proyecto utilizo los módulos **colorama** y **pymongo** que son módulos que no vienen por defecto al instalar Python, por ende se deben de instalar a través de PIP. Reitero que dejaré estos módulos ya instalados en el entorno virtual para no instalar nada en su sistema.
 
 ### Programación
  
-El programa está codificado con el lenguaje de programación **Python** en el entorno de desarrollo **Visual Studio Code** separados por módulos para ahorrar líneas de código, mantener un código ordenado y facilitar cualquier futura mejora en el programa retocando en partes específicas dejando comentarios como documentación.
+El programa está codificado con el lenguaje de programación **Python** en el entorno de desarrollo **Visual Studio Code**, los codigos estan separados en módulos para mantener la facilitadad de generar cualquier cambio del programa retocando una parte específica, además de esta forma el código permanece mas ordenado y descriptivo.
  
 ### Base de Datos
  
-En este proyecto utilizaré la base de datos **MongoDB** para poder aprender y comprender como se trabaja con la BD tipo JSON.
+El proyecto trabaja con la base de datos **MongoDB** está implementada para generar un historial de operaciones.
  
 ## Funcionalidades
  
 - Banner
 
-La función del banner en el programa representa una muestra de los cambios de estados de conexión que va generando el usuario con la base de 
-datos, en caso de conectar se detalla la información del mismo y la información va a cambiar dependiendo de la base de datos con la que se conecte.
+La función del banner en el programa está para mostrar los cambios de estado en la conexión de base de datos que va generando el usuario, en cada caso de conexión se va a ir detallando la información del mismo y va a ir cambiar dependiendo si se conecta o no.
  
 - Banner con Conexión
 
-![](https://github.com/Lucas-devSoft/Python/assets/111676352/beb02be4-30b3-4f42-98c5-c2c9c622ee7f)
-*En la imagen como se puede apreciar la extensión de MongoDB en Visual Studio Code me permite ver las bases de datos que tengo creadas en localhost, como mencioné anteriormente, el banner muestra información detallada como (tipo de conexión, nombre de la BD a la que está conectada al igual que su colección y la versión). En este caso en particular La información que trae es la BD por defecto la que fue originada en el código, pero en el caso de que el usuario llegue a generar una con un nombre en específico se conectara a ella y se mostrara en el banner.*
+![Con Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/5d8ae635-cbdf-41ca-865a-f4fda2ffab58)
+*En la imagen muestra la información detallada como (tipo de conexión, nombre de la BD a la que está conectada al igual que su colección y la versión de MongoDB). En este caso en particular La información que trae es la base de datos por defecto, es decir originada en el código, pero en el caso de que el usuario llegue a generar una con un nombre en específico se conectara a ella y se mostrara en el banner.*
 
 - Banner sin Conexión
 
-![](https://github.com/Lucas-devSoft/Python/assets/111676352/64b8fd15-8289-4e6e-9a36-f778c32fc396)
-*Como se puede apreciar en la imagen, en el banner del Menú se lanza el estado de conexión con el que ingreso el usuario, en este caso como es un ‘no’. El banner mostró que la calculadora está sin conexión, por ende no se guardara información.*
+![Sin Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/d652da2a-80ec-47b7-9eb3-4b33fec5ad77)
+*En la imagen muestra el cambio de estado a "sin conexión" debido a que el usuario eligio ‘no’ conectarse a la base de datos. El banner mostró que la calculadora está sin conexión, por ende no se guardara información.*
 
 - Menus
 
