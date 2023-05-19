@@ -27,7 +27,7 @@ En el proyecto utilizo los módulos necesarios a través de un entorno virtual p
  
 ### Módulos
  
-En el proyecto utilizo los módulos **colorama** y **pymongo** que son módulos que no vienen por defecto al instalar Python, por ende se deben de instalar a través de PIP. Reitero que dejaré estos módulos ya instalados en el entorno virtual para no instalar nada en su sistema.
+En el proyecto utilizo los módulos **colorama** y **pymongo** que son módulos que no vienen por defecto al instalar Python, por ende se deben de instalar a través de ``pip install``. Reitero que dejaré estos módulos ya instalados en el entorno virtual para no instalar nada en su sistema.
 
 ### Programación
  
