@@ -10,7 +10,7 @@
   - Banner        
     - Con Conexión
     - Sin conexion         
-  - Menues
+  - Interacciones
   - Mensajes de Errores
 - [Ejecución del Proyecto](#ejecución-del-proyecto)
 - [Desarrollador](#desarrollador)
@@ -47,45 +47,44 @@ La función del banner en el programa está para mostrar los cambios de estado e
 
 ![Con Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/5d8ae635-cbdf-41ca-865a-f4fda2ffab58)
 
-*En la imagen muestra la información detallada como (tipo de conexión, nombre de la BD a la que está conectada al igual que su colección y la versión de MongoDB). En este caso en particular La información que trae es la base de datos por defecto, es decir originada en el código, pero en el caso de que el usuario llegue a generar una con un nombre en específico se conectara a ella y se mostrara en el banner.*
+*La imagen muestra información detallada como (tipo de conexión, nombre de la BD a la que está conectada al igual que su colección y la versión de MongoDB). En este caso en particular La información que trae es la base de datos por defecto, es decir la originada por código, pero en el caso de que el usuario llegue a generar una con un nombre específico se conectara a ella y el banner cambiará.*
 
 - Banner sin Conexión
 
 ![Sin Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/d652da2a-80ec-47b7-9eb3-4b33fec5ad77)
 
-*En la imagen muestra el cambio de estado a "sin conexión" debido a que el usuario eligio ‘no’ conectarse a la base de datos. El banner mostró que la calculadora está sin conexión, por ende no se guardara información.*
+*La imagen muestra el cambio de estado a "sin conexión" porque el usuario ha elegido no conectarse a la base de datos. El Banner demostró que su estado está en modo sin conexión, por lo tanto, no se guardará información.*
 
-- Menus
+- Interacciones
 
-La función de cada menú en el programa es para interactuar con el usuario y esperar una respuesta del mismo para continuar con cada funcionalidad del programa.
+La función de cada interacción en el programa es para que el usuario elija qué es lo que desea hacer y espera a recibir una respuesta precisa en referencia a lo solicitado para continuar con cada funcionalidad del programa.
 
 - Solicitud del Nombre
 
-![](https://github.com/Lucas-devSoft/Python/assets/111676352/ab9a8dec-e785-4872-8656-d5885ff460c6)
+![Nombre](https://github.com/Lucas-devSoft/Python/assets/111676352/70aff83b-1a3b-4f2f-ba0d-9b13b26ac759)
 
-*Esta funcionalidad esta para brindar una gentil bienvenida al usuario y además su otra utilidad está en el caso de generar una conexión a la base de datos agrega a la Base de datos a quién corresponde cada operación guardada.*<br>
-*Ejemplo - { _id : Autodesignado, Nombre: Lucas , Valor_1: 4 , Operador : + , Valor_2 : 4 , Resultado : 8}*<br>
-*Es un ejemplo de como se subirá la insercion de los datos sin embargo a la hora de mostrarlo por pantalla se veran solo los valores sin claves.*
+*Esta funcionalidad esta para brindar una gentil bienvenida al usuario y además su otra utilidad está en el caso de generar una conexión a la base de datos agregar su correspondencia a cada operación guardada.*
 
 - Conexión a la Base de Datos
 
-![](https://github.com/Lucas-devSoft/Python/assets/111676352/bd872f9c-9307-4ab9-bb6f-8009e5d15af7)
+![Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/2a218909-30b3-4307-976a-1d005e991a9b)
 
-*En esta funcionalidad se realiza la conexión a la base de datos, en el caso de escribir ‘sí’ se genera la conexión y en el caso de optar por ‘no’ va directamente al Menú de la Calculadora, destacando en el Banner un mensaje recordatorio que el usuario está en modo sin conexión.*
+*En esta funcionalidad se realiza la conexión a la base de datos. Caso de escribir ‘sí’ se genera la conexión, caso contrario ‘no’ va directamente al Menú de la Calculadora, destacando en el Banner un mensaje de recordatorio que el usuario está en modo sin conexión.*
 
 - Tipo de Conexión
 
-![](https://github.com/Lucas-devSoft/Python/assets/111676352/cc695969-bbb4-4807-8fd9-185a35906151)
+![Tipo de conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/b0ec526f-e399-4cd2-ba75-8e6210148ad1)
 
-*En este menú se solicita el tipo de conexión que se va a generar en MongoDB, es decir de forma local o bien mediante cuenta MongoDB Atlas para realizar el guardado de los datos, en caso de dar una respuesta errónea se lanzará un mensaje de error como en los casos anteriores.*
+*En esta funcionalidad solicita que tipo de conexión quiere generar el usuario con MongoDB, es decir de forma local o bien mediante cuenta MongoDB Atlas para realizar el guardado de los datos.*
 
-- Creando la Base de Datos
+- Crear una Base de Datos con un nombre específico
 
-![](https://github.com/Lucas-devSoft/Python/assets/111676352/09b646d5-7d79-463a-b85b-b029da433799)
+![Creando una BD](https://github.com/Lucas-devSoft/Python/assets/111676352/06c28543-a130-434d-b9e4-ee068f14a9af)
 
-*La funcionalidad de este Menú es que el usuario elija si quiere avanzar creando una base de datos con un nombre en específico que él elija o bien avanzar directamente desde una base de datos por defecto que yo nombre directamente en el código para que se creara en cuanto el usuario ponga que ‘no’ y pueda cargar sus datos ahí. En el caso de ‘no’ la Base de datos que se generará se llamara “Calculadora” con una colección llamada “Historial” en el caso de ‘sí’ se llamara como el usuario haya elegido.*
+*En esta funcionalidad de este Menú es que el usuario elija si quiere avanzar creando una base de datos con un nombre en específico que él elija o bien avanzar directamente desde una base de datos por defecto que yo nombre directamente en el código para que se creara en cuanto el usuario ponga que ‘no’ y pueda cargar sus datos ahí. En el caso de ‘no’ la Base de datos que se generará se llamara “Calculadora” con una colección llamada “Historial” en el caso de ‘sí’ se llamara como el usuario haya elegido.*
 
 - Base de Datos creada
+
 
 ![](https://github.com/Lucas-devSoft/Python/assets/111676352/928deae3-29ae-4976-8156-c8619cb06ff0)
 
