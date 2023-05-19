@@ -46,11 +46,13 @@ La función del banner en el programa está para mostrar los cambios de estado e
 - Banner con Conexión
 
 ![Con Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/5d8ae635-cbdf-41ca-865a-f4fda2ffab58)
+
 *En la imagen muestra la información detallada como (tipo de conexión, nombre de la BD a la que está conectada al igual que su colección y la versión de MongoDB). En este caso en particular La información que trae es la base de datos por defecto, es decir originada en el código, pero en el caso de que el usuario llegue a generar una con un nombre en específico se conectara a ella y se mostrara en el banner.*
 
 - Banner sin Conexión
 
 ![Sin Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/d652da2a-80ec-47b7-9eb3-4b33fec5ad77)
+
 *En la imagen muestra el cambio de estado a "sin conexión" debido a que el usuario eligio ‘no’ conectarse a la base de datos. El banner mostró que la calculadora está sin conexión, por ende no se guardara información.*
 
 - Menus
