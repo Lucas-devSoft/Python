@@ -45,15 +45,15 @@ La función del banner en el programa está para mostrar los cambios de estado e
  
 - Banner con Conexión
 
-![Con Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/5d8ae635-cbdf-41ca-865a-f4fda2ffab58)
-
 *La imagen muestra información detallada como (tipo de conexión, nombre de la BD a la que está conectada al igual que su colección y la versión de MongoDB). En este caso en particular La información que trae es la base de datos por defecto, es decir la originada por código, pero en el caso de que el usuario llegue a generar una con un nombre específico se conectara a ella y el banner cambiará.*
+
+![Con Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/5d8ae635-cbdf-41ca-865a-f4fda2ffab58)
 
 - Banner sin Conexión
 
-![Sin Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/d652da2a-80ec-47b7-9eb3-4b33fec5ad77)
-
 *La imagen muestra el cambio de estado a "sin conexión" porque el usuario ha elegido no conectarse a la base de datos. El Banner demostró que su estado está en modo sin conexión, por lo tanto, no se guardará información.*
+
+![Sin Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/d652da2a-80ec-47b7-9eb3-4b33fec5ad77)
 
 - Interacciones
 
@@ -61,34 +61,43 @@ La función de cada interacción en el programa es para que el usuario elija qu�
 
 - Solicitud del Nombre
 
-![Nombre](https://github.com/Lucas-devSoft/Python/assets/111676352/70aff83b-1a3b-4f2f-ba0d-9b13b26ac759)
-
 *Esta funcionalidad esta para brindar una gentil bienvenida al usuario y además su otra utilidad está en el caso de generar una conexión a la base de datos agregar su correspondencia a cada operación guardada.*
+
+![Nombre](https://github.com/Lucas-devSoft/Python/assets/111676352/70aff83b-1a3b-4f2f-ba0d-9b13b26ac759)
 
 - Conexión a la Base de Datos
 
-![Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/2a218909-30b3-4307-976a-1d005e991a9b)
-
 *En esta funcionalidad se realiza la conexión a la base de datos. Caso de escribir ‘sí’ se genera la conexión, caso contrario ‘no’ va directamente al Menú de la Calculadora, destacando en el Banner un mensaje de recordatorio que el usuario está en modo sin conexión.*
+
+![Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/2a218909-30b3-4307-976a-1d005e991a9b)
 
 - Tipo de Conexión
 
-![Tipo de conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/b0ec526f-e399-4cd2-ba75-8e6210148ad1)
-
 *En esta funcionalidad solicita que tipo de conexión quiere generar el usuario con MongoDB, es decir de forma local o bien mediante cuenta MongoDB Atlas para realizar el guardado de los datos.*
+
+![Tipo de conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/b0ec526f-e399-4cd2-ba75-8e6210148ad1)
 
 - Crear una Base de Datos con un nombre específico
 
-![Creando una BD](https://github.com/Lucas-devSoft/Python/assets/111676352/06c28543-a130-434d-b9e4-ee068f14a9af)
-
 *En esta funcionalidad de este Menú es que el usuario elija si quiere avanzar creando una base de datos con un nombre en específico que él elija o bien avanzar directamente desde una base de datos por defecto que yo nombre directamente en el código para que se creara en cuanto el usuario ponga que ‘no’ y pueda cargar sus datos ahí. En el caso de ‘no’ la Base de datos que se generará se llamara “Calculadora” con una colección llamada “Historial” en el caso de ‘sí’ se llamara como el usuario haya elegido.*
 
-- Base de Datos creada
+![Creando una BD](https://github.com/Lucas-devSoft/Python/assets/111676352/06c28543-a130-434d-b9e4-ee068f14a9af)
 
+- Base de Datos Creada y Existente
 
-![](https://github.com/Lucas-devSoft/Python/assets/111676352/928deae3-29ae-4976-8156-c8619cb06ff0)
+*En esta funcionalidad el usuario puede generar su BD con el nombre que desee y pueda insertar sus datos dentro de la misma. Esta funcionalidad también detecta si la BD existe o no, si la BD que quiere crear ya existe arrojara “La base de datos ya existe y está activada para guardar".*
 
-*La funcionalidad de esta parte del programa es que el usuario pueda crear su base de datos con un nombre en específico y pueda cargar sus datos ahí. Si la Base de datos que quiere crear contiene el mismo nombre de una base de datos ya existente, optará por arrojar otro tipo de mensaje como “La base de datos ya existe y está activada para guardar.*
+![BD Creada](https://github.com/Lucas-devSoft/Python/assets/111676352/6d6ddc32-f822-4c07-b243-845fa0fc99b0)
+![BD Existente](https://github.com/Lucas-devSoft/Python/assets/111676352/33cd9cb3-a4f3-42d5-8d12-290a4fa57e51)
+
+- Muestra del Historial de operaciones
+
+*Esta funcionalidad se activa cuando el usuario está conectado, va a poder visualizar todas sus operaciones en el transcurso del programa siempre y cuando este conectado, en caso de no estarlo aparecera un recordatorio de que el usuario esta sin conexión.*
+
+![Historial](https://github.com/Lucas-devSoft/Python/assets/111676352/bed56226-243a-48cb-b0eb-97cb8d65ee62)
+![Recordatorio](https://github.com/Lucas-devSoft/Python/assets/111676352/ab56064c-67cf-4e46-80c8-6be0e0c8834e)
+
+<hr>
 
 - Errores
 
