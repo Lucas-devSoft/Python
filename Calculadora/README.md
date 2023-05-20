@@ -90,20 +90,15 @@ En esta funcionalidad el usuario puede generar su BD con el nombre que desee y p
 ![BD Creada](https://github.com/Lucas-devSoft/Python/assets/111676352/6d6ddc32-f822-4c07-b243-845fa0fc99b0)
 ![BD Existente](https://github.com/Lucas-devSoft/Python/assets/111676352/33cd9cb3-a4f3-42d5-8d12-290a4fa57e51)
 
-- Muestra del Historial de operaciones
+- Muestra el Historial de operaciones
 
 Esta funcionalidad se activa cuando el usuario está conectado, va a poder visualizar todas sus operaciones en el transcurso del programa siempre y cuando este conectado, en caso de no estarlo aparecera un recordatorio de que el usuario esta sin conexión.
 
-![Historial](https://github.com/Lucas-devSoft/Python/assets/111676352/bed56226-243a-48cb-b0eb-97cb8d65ee62)
+![Otro Menu](https://github.com/Lucas-devSoft/Python/assets/111676352/390f7fe3-3d94-4e86-8213-259bca1ff84e)
 ![Recordatorio](https://github.com/Lucas-devSoft/Python/assets/111676352/ab56064c-67cf-4e46-80c8-6be0e0c8834e)
 
-- Menu de Base de datos (Trabajando en ello)
-
-Esta funcionalidad consta de que el usuario lleve el control de su base de datos a través de este Menu en el que estoy trabajando. La idea es que pueda (crear, visualizar, eliminar) base de datos y lo mismo con la información guardada.
-
-![;Menu Base de Datos](https://github.com/Lucas-devSoft/Python/assets/111676352/4526f2b0-d623-4314-a3cb-462d99d5c479)
-
 <hr>
+
 
 - Mensajes de Errores
 
