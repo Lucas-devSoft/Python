@@ -99,7 +99,6 @@ Esta funcionalidad se activa cuando el usuario está conectado, va a poder visua
 
 <hr>
 
-
 - Mensajes de Errores
 
 La función del error es advertir durante todo el programa que el usuario ha insertado una respuesta incorrecta, por lo tanto, para poder continuar con el flujo del programa debera reintentar hasta insertar datos correctos sino los mensajes de error persistiran.
@@ -124,33 +123,45 @@ La función del error es advertir durante todo el programa que el usuario ha ins
 
 ## Ejecución del Proyecto
 
-Para correr este programa contamos con los siguientes pasos.
+Contamos con 2 alternativas para usar el programa.
+
+- Alternativa uno.
+
+1.  Se necesita tener instalado Python en el sistema (Ultima Versión 3.11.3) >  [Descargalo de Aquí](https://www.python.org/downloads/ "Página oficial de Python") 
+ 
+2. Si tenes Windows como SO y queres probar el programa podes descargarte "Exe-Calculadora" y dentro de ``dist`` esta el ejecutable ``menu.exe``, das doble click sobre él y ya se ejecuta.
+
+- Alternativa dos: 
   
-  1. Se necesita tener instalado Python en el sistema (Ultima Versión 3.11.3). [Descargar de Aquí](https://www.python.org/downloads/ "Página oficial de Python") 
+1. Se necesita tener instalado Python en el sistema (Ultima Versión 3.11.3) >   [Descargalo de Aquí](https://www.python.org/downloads/ "Página oficial de Python") 
   
-  2. Descargas el proyecto completo "Calculadora" o solo el entorno virtual que contiene los moódulos necesarios para correrlo. [Descargalo Aquí](https://drive.google.com/drive/u/1/folders/1b8E-k7cfCAzpT5wKOZRedXX86UHuEL9j "Google Drive")
+2. Descargas el entorno virtual que contiene los moódulos necesarios para correrlo >   [Descargalo Aquí](https://drive.google.com/drive/u/1/folders/1b8E-k7cfCAzpT5wKOZRedXX86UHuEL9j "Google Drive")
 
-  3. Si descargaste el proyecto completo "Calculadora" debemos activar el entorno virtual. [+Info](https://docs.python.org/es/3/tutorial/venv.html "Documentación venv")
-   
-      En el CMD de Windows se activa de esta forma:
+3. Luego en la raiz junto a .env colocas todos los Scripts descargados y activamos el entorno virtual. [+Info](https://docs.python.org/es/3/tutorial/venv.html "Documentación venv")
 
-         ``.env\Scripts\activate.bat``
+![Muestra](https://github.com/Lucas-devSoft/Python/assets/111676352/13d12580-7c50-4cdc-925f-283b21fb817c)
 
-       En Unix o MacOS, ejecuta:
+Para activar el entorno hacemos lo siguiente:
 
-          ``source .env/Scripts/activate``
+En el CMD de Windows se activa de esta forma:
 
-       Cuando ingresamos correctamente al entorno virtual delante del Path nos aparecera el nombre del entorno de esta forma (.env). 
+ ``.env\Scripts\activate.bat``
 
-       ![Entorno Virtual](https://github.com/Lucas-devSoft/Python/assets/111676352/f93faa08-999c-4afb-ade5-afedb03a9eea)
+En Unix o MacOS, ejecuta:
 
-  4. En la consola estando en la carpeta raíz "Calculadora" ya podremos ejecutar el programa.
+ ``source .env/Scripts/activate``
 
-      ``python menu.py``
+Cuando ingresamos correctamente al entorno virtual delante del Path nos aparecera el nombre del entorno de esta forma (.env). 
 
-  5. Para desactivar el entorno virtual.
+![Entorno Virtual](https://github.com/Lucas-devSoft/Python/assets/111676352/f93faa08-999c-4afb-ade5-afedb03a9eea)
 
-      ``deactivate``
+4. En la consola estando en la carpeta raíz "Calculadora" ya podremos ejecutar el programa.
+
+ ``python menu.py``
+
+5. Para desactivar el entorno virtual.
+
+ ``deactivate``
    
 ## Desarrollador
 
