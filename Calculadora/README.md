@@ -17,91 +17,111 @@
  
 ## Descripción del Proyecto
  
-Está desarrollado en entorno Windows, está diseñado para ejecutarse en la terminal del sistema operativo. El proyecto es una simple imitación de una calculadora, salvo que lleva otras funcionalidades para retornar que la clásica calculadora, el usuario interactuará con ella y deberá de elegir  si quiere guardar o no la información de sus operaciones a través de la base de datos MongoDB que implemente.
+El proyecto se desarrolla en un entorno Windows y está diseñado para ejecutarse en la terminal del sistema operativo. Se trata de una calculadora que ofrece funcionalidades adicionales en comparación con una calculadora clásica. El usuario interactúa con la calculadora y tiene la opción de elegir si desea guardar la información de sus operaciones mediante una base de datos MongoDB implementada en el proyecto..
  
 ## Herramientas Utilizadas
  
 ### Entorno Virtual
 
-En el proyecto utilizo los módulos necesarios a través de un entorno virtual para facilitar el acceso a la aplicación y no tener que descargar absolutamente nada en el sistema del usuario, ya que está todo instalado en el mismo entorno virtual para correrlo en consola de sus sistema, si le apetece probarlo lo estare dejando abajo. [Descargar](#ejecución-del-proyecto)
+En el proyecto, empleo módulos necesarios mediante un entorno virtual para brindar un acceso sencillo a la aplicación sin requerir ninguna descarga en el sistema del usuario. Todos los componentes necesarios están instalados en el entorno virtual, lo que permite ejecutarlo en la consola de su propio sistema. Si desea probarlo, a continuación encontrará el enlace. [Descargar](#ejecución-del-proyecto)
  
 ### Módulos
  
-En el proyecto utilizo los módulos **colorama** y **pymongo** que son módulos que no vienen por defecto al instalar Python, por ende se deben de instalar a través de ``pip install``. Reitero que dejaré estos módulos ya instalados en el entorno virtual para no instalar nada en su sistema.
+En el proyecto, utilizo los módulos **colorama** y **pymongo**, los cuales no están incluidos en la instalación predeterminada de Python. Por lo tanto, es necesario instalarlos a través de ``pip install``. Sin embargo, quiero asegurarle que ya he instalado estos módulos en el entorno virtual, por lo que no será necesario que los instale en su sistema.
 
 ### Programación
  
-El programa está codificado con el lenguaje de programación **Python** en el entorno de desarrollo **Visual Studio Code**, los codigos estan separados en módulos para mantener la facilitadad de generar cualquier cambio del programa retocando una parte específica, además de esta forma el código permanece mas ordenado y descriptivo.
+El programa fue implementado en Python y se desarrolló utilizando el entorno de programación Visual Studio Code. Los códigos se organizaron en módulos separados, lo que permite realizar cambios de manera más sencilla en partes específicas del programa. Esta práctica no solo mejora la flexibilidad para modificar el software, sino que también ayuda a mantener un código más organizado y descriptivo.
  
 ### Base de Datos
  
-El proyecto trabaja con la base de datos **MongoDB** está implementada para generar un historial de operaciones.
+El proyecto utiliza la base de datos MongoDB y ha sido implementado para generar un historial de operaciones.
  
 ## Funcionalidades
  
 - Banner
 
-La función del banner en el programa está para mostrar los cambios de estado en la conexión de base de datos que va generando el usuario, en cada caso de conexión se va a ir detallando la información del mismo y va a ir cambiar dependiendo si se conecta o no.
+La función del banner en el programa es mostrar los cambios de estado en la conexión de la base de datos que el usuario va generando. En cada caso de conexión, se detallará la información correspondiente, la cual cambiará dependiendo de si se establece o no la conexión..
  
 - Banner con Conexión
 
-La imagen muestra información detallada como (tipo de conexión, nombre de la BD a la que está conectada al igual que su colección y la versión de MongoDB). En este caso en particular La información que trae es la base de datos por defecto, es decir la originada por código, pero en el caso de que el usuario llegue a generar una con un nombre específico se conectara a ella y el banner cambiará.
+La imagen proporciona detalles exhaustivos, como el tipo de conexión, el nombre de la base de datos a la que está conectada, así como su colección y la versión de MongoDB. En este caso específico, la información que se muestra es la base de datos predeterminada, generada automáticamente a través del código. Sin embargo, si el usuario crea una base de datos con un nombre específico, se establecerá la conexión con esa base de datos y el banner cambiará en consecuencia.
 
-![Con Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/5d8ae635-cbdf-41ca-865a-f4fda2ffab58)
+![Conectado](https://github.com/Lucas-devSoft/Python/assets/111676352/72f1e900-a8d9-43ec-9352-11f1acdc24ef)
 
 - Banner sin Conexión
 
-La imagen muestra el cambio de estado a "sin conexión" porque el usuario ha elegido no conectarse a la base de datos. El Banner demostró que su estado está en modo sin conexión, por lo tanto, no se guardará información.
+La imagen ilustra el cambio de estado a "sin conexión" debido a la decisión del usuario de no conectarse a la base de datos. El banner indica claramente que el sistema está en modo sin conexión, lo que implica que no se guardarán datos.
 
-![Sin Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/d652da2a-80ec-47b7-9eb3-4b33fec5ad77)
+![Sin conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/ee04c8ab-05f7-4db7-b0eb-68f4b798a39e)
+
 
 - Interacciones
 
-La función de cada interacción en el programa es para que el usuario elija qué es lo que desea hacer y espera a recibir una respuesta precisa en referencia a lo solicitado para continuar con cada funcionalidad del programa.
+Cada interacción en el programa cumple una función específica: permitir al usuario elegir lo que desea hacer y esperar una respuesta precisa que se ajuste a su solicitud, para así continuar con las diferentes funcionalidades del programa.
 
 - Solicitud del Nombre
 
-Esta funcionalidad esta para brindar una gentil bienvenida al usuario y además su otra utilidad está en el caso de generar una conexión a la base de datos agregar su correspondencia a cada operación guardada.
+Esta función tiene como propósito dar una cálida bienvenida al usuario, además de su otra utilidad que consiste en establecer una conexión con la base de datos y asignar la correspondencia correspondiente a cada operación almacenada.
 
-![Nombre](https://github.com/Lucas-devSoft/Python/assets/111676352/70aff83b-1a3b-4f2f-ba0d-9b13b26ac759)
+![Nombre](https://github.com/Lucas-devSoft/Python/assets/111676352/7b769a85-a8c4-46ed-86a9-a6647dc86ed5)
 
 - Conexión a la Base de Datos
 
-En esta funcionalidad se realiza la conexión a la base de datos. Caso de escribir ‘sí’ se genera la conexión, caso contrario ‘no’ va directamente al Menú de la Calculadora, destacando en el Banner un mensaje de recordatorio que el usuario está en modo sin conexión.
+En esta función se establece la conexión con la base de datos. Si se ingresa "sí", se genera la conexión; de lo contrario, si se ingresa "no", el sistema redirige directamente al Menú de la Calculadora. Además, se muestra un mensaje destacado en el Banner para recordar al usuario que se encuentra en modo sin conexión.
 
-![Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/2a218909-30b3-4307-976a-1d005e991a9b)
+![Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/29079f3e-5d5d-495e-9025-921610fff74b)
 
 - Tipo de Conexión
 
-En esta funcionalidad solicita que tipo de conexión quiere generar el usuario con MongoDB, es decir de forma local o bien mediante cuenta MongoDB Atlas para realizar el guardado de los datos.
+En esta funcionalidad, se solicita al usuario que elija el tipo de conexión que desea establecer con MongoDB. Puede optar por una conexión local o utilizar una cuenta en MongoDB Atlas para almacenar los datos.
 
-![Tipo de conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/b0ec526f-e399-4cd2-ba75-8e6210148ad1)
+![Tipo de Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/e554011f-4663-42a7-a680-44afe3a8af72)
 
-- Crear una Base de Datos con un nombre específico
+- Crear una Base de Datos Local con un nombre específico
 
-En esta funcionalidad de este Menú es que el usuario elija si quiere avanzar creando una base de datos con un nombre en específico que él elija o bien avanzar directamente desde una base de datos por defecto que yo nombre directamente en el código para que se creara en cuanto el usuario ponga que ‘no’ y pueda cargar sus datos ahí. En el caso de ‘no’ la Base de datos que se generará se llamara “Calculadora” con una colección llamada “Historial” en el caso de ‘sí’ se llamara como el usuario haya elegido.
+Esta funcionalidad del menú permite al usuario elegir entre dos opciones: la primera consiste en avanzar creando una base de datos con un nombre específico elegido por él mismo, mientras que la segunda opción es avanzar directamente desde una base de datos predeterminada que he nombrado directamente en el código. Esta base de datos predeterminada se creará automáticamente cuando el usuario responda "no" y podrá cargar sus datos allí. En caso de que el usuario elija "no", la base de datos generada se llamará "Calculadora" y contendrá una colección llamada "Historial". Por otro lado, si el usuario responde "sí", la base de datos se llamará según la elección del usuario.
 
-![Creando una BD](https://github.com/Lucas-devSoft/Python/assets/111676352/06c28543-a130-434d-b9e4-ee068f14a9af)
+![Crear BD](https://github.com/Lucas-devSoft/Python/assets/111676352/35867c13-694c-45b4-a4a9-9a36dd6897ed)
 
-- Base de Datos Creada y Existente
+- Base de Datos Local creación y existencia
 
-En esta funcionalidad el usuario puede generar su BD con el nombre que desee y pueda insertar sus datos dentro de la misma. Esta funcionalidad también detecta si la BD existe o no, si la BD que quiere crear ya existe arrojara “La base de datos ya existe y está activada para guardar".
+En esta funcionalidad, el usuario tiene la capacidad de crear una base de datos (BD) con el nombre de su elección y agregar sus datos dentro de ella. Además, se implementa una detección automática para verificar si la BD ya existe. En caso de que la BD que se intenta crear ya esté presente, se mostrará el mensaje "La base de datos ya existe y está activada para guardar".
 
-![BD Creada](https://github.com/Lucas-devSoft/Python/assets/111676352/6d6ddc32-f822-4c07-b243-845fa0fc99b0)
-![BD Existente](https://github.com/Lucas-devSoft/Python/assets/111676352/33cd9cb3-a4f3-42d5-8d12-290a4fa57e51)
+![BD Creada](https://github.com/Lucas-devSoft/Python/assets/111676352/81cc020c-5446-48fc-8d03-33a896a22163)
+![BD Existente](https://github.com/Lucas-devSoft/Python/assets/111676352/dc340cf5-4212-4885-8c97-989ceda049e7)
+
+- Conexión Mongo Atlas
+
+En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mongo Atlas para establecer la conexión con su base de datos. Esto permitirá almacenar las operaciones realizadas.
+
+![Conexión Atlas](https://github.com/Lucas-devSoft/Python/assets/111676352/f65bad0b-bebc-4ae3-a3e7-4c2cc1374a64)
+
+- Crear Base de Datos desde Atlas con un nombre específico
+
+Esta funcionalidad se encarga de crear una nueva base de datos con el nombre elegido por el usuario, donde se podrán almacenar todas las operaciones realizadas en la calculadora.
+
+![Crear BD Atlas](https://github.com/Lucas-devSoft/Python/assets/111676352/ee02cafd-86f2-4326-a6b6-cb9dbf439f4e)
+
+- Base de datos Atlas Creación y Existencia
+
+En las siguientes imágenes se presentan distintos mensajes destacados que surgen cuando se crea una base de datos inexistente o cuando se detecta que la base de datos ya existe, permitiendo así continuar con el programa.
+
+![Creada](https://github.com/Lucas-devSoft/Python/assets/111676352/6679aed2-c171-421a-8ff1-f6ce3cb157d6)
+![Existente](https://github.com/Lucas-devSoft/Python/assets/111676352/82aea4ba-565c-4712-8116-c817d7520318)
 
 - Muestra el Historial de operaciones
 
-Esta funcionalidad se activa cuando el usuario está conectado, va a poder visualizar todas sus operaciones en el transcurso del programa siempre y cuando este conectado, en caso de no estarlo aparecera un recordatorio de que el usuario esta sin conexión.
+Esta funcionalidad se activa cuando el usuario está conectado. De esta manera, el usuario puede visualizar todas sus operaciones durante el transcurso del programa, siempre y cuando esté conectado. En caso de que no lo esté, aparecerá un recordatorio indicando que el usuario se encuentra sin conexión.
 
-![Otro Menu](https://github.com/Lucas-devSoft/Python/assets/111676352/390f7fe3-3d94-4e86-8213-259bca1ff84e)
-![Recordatorio](https://github.com/Lucas-devSoft/Python/assets/111676352/ab56064c-67cf-4e46-80c8-6be0e0c8834e)
+![Historial](https://github.com/Lucas-devSoft/Python/assets/111676352/06e84d08-77b5-4e89-926e-0881dd811e2c)
+![Recordatorio](https://github.com/Lucas-devSoft/Python/assets/111676352/e9b60347-20b3-469b-8d6d-6b9218a3b6e2)
 
 <hr>
 
 - Mensajes de Errores
 
-La función del error es advertir durante todo el programa que el usuario ha insertado una respuesta incorrecta, por lo tanto, para poder continuar con el flujo del programa debera reintentar hasta insertar datos correctos sino los mensajes de error persistiran.
+La función del error es alertar al usuario en todo momento cuando haya ingresado una respuesta incorrecta. Por lo tanto, para poder avanzar en el flujo del programa, será necesario que vuelva a intentarlo hasta que ingrese los datos correctos; de lo contrario, los mensajes de error persistirán.
 
 - Error (Solicitud del Nombre)
 
