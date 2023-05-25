@@ -147,19 +147,19 @@ La función del error es alertar al usuario en todo momento cuando haya ingresad
 
 ## Ejecución del Proyecto
 
-Contamos con 2 alternativas para usar el programa.
+Contamos con 2 alternativas para correr el programa.
 
 - Alternativa uno.
 
 1.  Se necesita tener instalado Python en el sistema (Ultima Versión 3.11.3) >  [Descargalo de Aquí](https://www.python.org/downloads/ "Página oficial de Python") 
  
-2. Si tenes Windows como SO y queres probar el programa podes descargarte "Exe-Calculadora" y dentro de ``dist`` esta el ejecutable ``menu.exe``, das doble click sobre él y ya se ejecuta.
+2. Si tenes Windows como SO y queres probar el programa podes descargarte ``Archivo Exe`` y dentro de la carpeta ``dist`` esta el ejecutable ``menu.exe``, das doble click sobre él y ya se ejecuta.
 
 - Alternativa dos: 
   
 1. Se necesita tener instalado Python en el sistema (Ultima Versión 3.11.3) >   [Descargalo de Aquí](https://www.python.org/downloads/ "Página oficial de Python") 
   
-2. Descargas el entorno virtual que contiene los moódulos necesarios para correrlo >   [Descargalo Aquí](https://drive.google.com/drive/u/1/folders/1b8E-k7cfCAzpT5wKOZRedXX86UHuEL9j "Google Drive")
+2. Descargas el entorno virtual que contiene los moódulos necesarios para correrlo >   [Descargalo Aquí](https://drive.google.com/drive/folders/127vdt47wluqg3wlVX53-jDB7UUEpwVK4?usp=drive_link "Google Drive")
 
 3. Luego en la raiz junto a .env colocas todos los Scripts descargados y activamos el entorno virtual. [+Info](https://docs.python.org/es/3/tutorial/venv.html "Documentación venv")
 
@@ -190,7 +190,4 @@ Cuando ingresamos correctamente al entorno virtual delante del Path nos aparecer
 ## Desarrollador
 
 ![Open](https://github.com/Lucas-devSoft/Python/assets/111676352/6d78f829-b40e-4b95-9d98-c6ba05e26f03) <br>
-[Lucas E. Sanchez](https://www.linkedin.com/in/lucasdevsoft2022/ "Perfil Linkedin")   |   [Pagina Web](https://lucas-devsoft.github.io/CV/ "Curriculum Web")
-
-
-
+[Perfil Linkedin](https://www.linkedin.com/in/lucasdevsoft2022/ "Perfil Linkedin")   |   [Pagina Web](https://lucas-devsoft.github.io/CV/ "Curriculum Web")
