@@ -125,19 +125,23 @@ La función del error es alertar al usuario en todo momento cuando haya ingresad
 
 - Error (Solicitud del Nombre)
 
-![Error Nombre](https://github.com/Lucas-devSoft/Python/assets/111676352/73aac8b5-c898-400f-9e35-8715032bb419)
+![Error Nombre](https://github.com/Lucas-devSoft/Python/assets/111676352/69e138cc-ef56-4c8b-b868-61a801ffdd4f)
 
 - Error (Conexión a la Base de Datos)
 
-![Error Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/b2c43d73-aefe-4fec-af76-5bada5da62b3)
+![Error Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/1e821122-4cad-44a9-8d7e-13491d3f4716)
 
 - Error (Menú)
 
-![Error Menu](https://github.com/Lucas-devSoft/Python/assets/111676352/e35dba11-c4be-49bb-9bb0-5ee3e4daf5ec)
+![Error Menú](https://github.com/Lucas-devSoft/Python/assets/111676352/5cc721aa-4247-4947-9bf6-df999f75b692)
+
+- Error (Datos Invalidos)
+
+![Datos invalidos](https://github.com/Lucas-devSoft/Python/assets/111676352/7889de17-4464-450b-81fc-fc7132c2713d)
 
 - Error (Tipo de Conexión)
 
-![Error Tipo Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/4e2f4f53-1e4e-4bf5-9261-4d9e409a1846)
+![Error tipo de Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/a256226f-1279-46c5-83b1-7b6980c11cb6)
 
 <hr>
 
