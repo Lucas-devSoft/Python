@@ -125,27 +125,27 @@
 
 <hr>
 
-- Tipos de Errores
+- **Tipos de Errores**
 
-La función del error es alertar al usuario en todo momento cuando haya ingresado una respuesta incorrecta. Por lo tanto, para poder avanzar en el flujo del programa, será necesario que vuelva a intentarlo hasta que ingrese los datos correctos; de lo contrario, los mensajes de error persistirán.
+*La función del error es alertar al usuario en todo momento cuando haya ingresado una respuesta incorrecta. Por lo tanto, para poder avanzar en el flujo del programa, será necesario que vuelva a intentarlo hasta que ingrese los datos correctos; de lo contrario, los mensajes de error persistirán.*
 
-- Error (Solicitud del Nombre)
+- **Error (Solicitud del Nombre)**
 
 ![Nombre](https://github.com/Lucas-devSoft/Python/assets/111676352/09d6d720-afb8-478f-a639-78acec68826d)
 
-- Error (Conexión a la Base de Datos)
+- **Error (Conexión a la Base de Datos)**
 
 ![Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/ee0b5a77-f53a-4bc9-b7ea-0250d07ef2c1)
 
-- Error (Menú)
+- **Error (Menú)**
 
 ![Menú](https://github.com/Lucas-devSoft/Python/assets/111676352/ad3c140f-d2a6-444d-8e96-7206c767329b)
 
-- Error (Tipo de Conexión)
+- **Error (Tipo de Conexión)**
 
 ![Tipo Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/e8fab442-6cf1-4917-bc8e-6363da32e48f)
 
-- Error (Datos Invalidos)
+- **Error (Datos Invalidos)**
 
 ![Datos](https://github.com/Lucas-devSoft/Python/assets/111676352/9585790e-f005-47db-97d3-3d051d258e4b)
 
@@ -153,43 +153,43 @@ La función del error es alertar al usuario en todo momento cuando haya ingresad
 
 ## Ejecución del Proyecto
 
-Contamos con 2 alternativas para correr el programa.
+*Contamos con 2 alternativas para correr el programa.*
 
-- Alternativa uno.
+- **Alternativa uno.**
 
-1.  Se necesita tener instalado Python en el sistema (Ultima Versión 3.11.3) >  [Descargalo de Aquí](https://www.python.org/downloads/ "Página oficial de Python") 
+1.  *Se necesita tener instalado Python en el sistema (Ultima Versión 3.11.3)* >  [Descargalo de Aquí](https://www.python.org/downloads/ "Página oficial de Python") 
  
-2. Si tenes Windows como SO y queres probar el programa podes descargarte ``Archivo Exe`` y dentro de la carpeta ``dist`` esta el ejecutable ``menu.exe``, das doble click sobre él y ya se ejecuta.
+2. *Si tenes Windows como SO y queres probar el programa podes descargarte ``Archivo Exe`` y dentro de la carpeta ``dist`` esta el ejecutable ``menu.exe``, das doble click sobre él y ya se ejecuta.*
 
-- Alternativa dos: 
+- **Alternativa dos** 
   
-1. Se necesita tener instalado Python en el sistema (Ultima Versión 3.11.3) >   [Descargalo de Aquí](https://www.python.org/downloads/ "Página oficial de Python") 
+1. *Se necesita tener instalado Python en el sistema (Ultima Versión 3.11.3)* >   [Descargalo de Aquí](https://www.python.org/downloads/ "Página oficial de Python") 
   
-2. Descargas el entorno virtual que contiene los moódulos necesarios para correrlo >   [Descargalo Aquí](https://drive.google.com/drive/folders/127vdt47wluqg3wlVX53-jDB7UUEpwVK4?usp=drive_link "Google Drive")
+2. *Descargas el entorno virtual que contiene los moódulos necesarios para correrlo* >   [Descargalo Aquí](https://drive.google.com/drive/folders/127vdt47wluqg3wlVX53-jDB7UUEpwVK4?usp=drive_link "Google Drive")
 
-3. Luego en la raiz junto a .env colocas todos los Scripts descargados y activamos el entorno virtual. [+Info](https://docs.python.org/es/3/tutorial/venv.html "Documentación venv")
+3. *Luego en la raiz junto a .env colocas todos los Scripts descargados y activamos el entorno virtual*. [+Info](https://docs.python.org/es/3/tutorial/venv.html "Documentación venv")
 
 ![Muestra](https://github.com/Lucas-devSoft/Python/assets/111676352/13d12580-7c50-4cdc-925f-283b21fb817c)
 
-Para activar el entorno hacemos lo siguiente:
+*Para activar el entorno hacemos lo siguiente:*
 
-En el CMD de Windows se activa de esta forma:
+*En el CMD de Windows se activa de esta forma:*
 
  ``.env\Scripts\activate.bat``
 
-En Unix o MacOS, ejecuta:
+*En Unix o MacOS, ejecuta:*
 
  ``source .env/Scripts/activate``
 
-Cuando ingresamos correctamente al entorno virtual delante del Path nos aparecera el nombre del entorno de esta forma (.env). 
+*Cuando ingresamos correctamente al entorno virtual delante del Path nos aparecera el nombre del entorno de esta forma (.env).* 
 
 ![Entorno Virtual](https://github.com/Lucas-devSoft/Python/assets/111676352/f93faa08-999c-4afb-ade5-afedb03a9eea)
 
-4. En la consola estando en la carpeta raíz "Calculadora" ya podremos ejecutar el programa.
+4. *En la consola estando en la carpeta raíz "Calculadora" ya podremos ejecutar el programa.*
 
  ``python menu.py``
 
-5. Para desactivar el entorno virtual.
+5. *Para desactivar el entorno virtual.*
 
  ``deactivate``
    
