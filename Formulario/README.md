@@ -17,7 +17,7 @@
  
 ## Descripción del Proyecto
  
-...
+Este proyecto se ha desarrollado en un entorno Windows para ejecutarse en la consola del sistema operativo. Es un proyecto simulado de formularios en el cual la información ingresada en cada campo se almacenará en una base de datos MongoDB si el usuario así lo desea. En caso contrario, las funcionalidades serán diferentes, lo que implica que los menús serán distintos cuando no se establezca conexión con una base de datos. Además, se incluirá otra funcionalidad que permitirá enviar la información a través de correo electrónico si el usuario lo solicita.
  
 ## Herramientas Utilizadas
  
