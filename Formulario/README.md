@@ -105,6 +105,20 @@ En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mong
 
 ![Existente](https://github.com/Lucas-devSoft/Python/assets/111676352/ecb463f6-10a6-4999-b246-875d1dde8142)
 
+- **Avisos de Formulario.**
+
+*En esta ocasión, se notifica que el usuario ha completado el formulario y no se le permitirá volver a completarlo hasta que realice el reinicio.*
+
+![Completado](https://github.com/Lucas-devSoft/Python/assets/111676352/383c1918-55b2-4fc1-910c-984c6b55834c)
+
+![Previamente Completado](https://github.com/Lucas-devSoft/Python/assets/111676352/2bc5e137-2d33-469b-b12b-c24b6fde0b5e)
+
+- **Los 3 Formularios completos**
+
+*Una vez que los tres formularios estén completos, se activará el menú de visualización y restablecimiento de formularios.*
+
+![nuevo menu](https://github.com/Lucas-devSoft/Python/assets/111676352/b787b893-5c98-4d2a-b995-faf80eabb020)
+
 - **Visualización del formulario**
 
 ...
