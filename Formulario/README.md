@@ -41,15 +41,15 @@
  
 - **Banner**
 
-...
+*La función del banner en el programa es mostrar los cambios de estado en la conexión de la base de datos que el usuario va generando. En cada caso de conexión, se detallará la información correspondiente, la cual cambiará dependiendo de si se establece o no la conexión.*
  
 - **Banner con Conexión**
 
-...
+![Con conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/949a588a-ed77-415e-baf6-d573806bb49d)
 
 - **Banner sin Conexión**
 
-...
+![Sin conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/a6a3b825-85ce-4e1c-9b91-c0c2ac7b0745)
 
 - **Interacciones**
 
