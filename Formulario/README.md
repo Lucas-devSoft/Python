@@ -147,7 +147,45 @@ En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mong
 
 ## Ejecución del Proyecto
 
-...
+*Contamos con 2 alternativas para correr el programa.*
+
+- **Alternativa uno.**
+
+1.  *Se necesita tener instalado Python en el sistema (Ultima Versión 3.11.3)* >  [Descargalo de Aquí](https://www.python.org/downloads/ "Página oficial de Python") 
+ 
+2. *Si tenes Windows como SO y queres probar el programa podes descargarte ``Archivo Exe`` y dentro de la carpeta ``dist`` esta el ejecutable ``menu.exe``, das doble click sobre él y ya se ejecuta.*
+
+- **Alternativa dos** 
+  
+1. *Se necesita tener instalado Python en el sistema (Ultima Versión 3.11.3)* >   [Descargalo de Aquí](https://www.python.org/downloads/ "Página oficial de Python") 
+  
+2. *Descargas el entorno virtual que contiene los moódulos necesarios para correrlo* >   [Descargalo Aquí](https://drive.google.com/drive/folders/127vdt47wluqg3wlVX53-jDB7UUEpwVK4?usp=drive_link "Google Drive")
+
+3. *Luego en la raiz junto a .env colocas todos los Scripts descargados y activamos el entorno virtual*. [+Info](https://docs.python.org/es/3/tutorial/venv.html "Documentación venv")
+
+![Muestra](https://github.com/Lucas-devSoft/Python/assets/111676352/13d12580-7c50-4cdc-925f-283b21fb817c)
+
+*Para activar el entorno hacemos lo siguiente:*
+
+*En el CMD de Windows se activa de esta forma:*
+
+ ``.env\Scripts\activate.bat``
+
+*En Unix o MacOS, ejecuta:*
+
+ ``source .env/Scripts/activate``
+
+*Cuando ingresamos correctamente al entorno virtual delante del Path nos aparecera el nombre del entorno de esta forma (.env).* 
+
+![Entorno Virtual](https://github.com/Lucas-devSoft/Python/assets/111676352/f93faa08-999c-4afb-ade5-afedb03a9eea)
+
+4. *En la consola estando en la carpeta raíz "Calculadora" ya podremos ejecutar el programa.*
+
+ ``python menu.py``
+
+5. *Para desactivar el entorno virtual.*
+
+ ``deactivate``
    
 ## Desarrollador
 
