@@ -27,7 +27,7 @@
  
 ### Módulos
  
-...
+*En el proyecto, utilizo los módulos **colorama**, **pymongo**, **smtplib** y **getpass**. Los modulos como **smtplib** y **getpass** estan preinstalados en python, **colorama** y **pymongo** no están incluidos en la instalación predeterminada de Python. Por lo tanto, es necesario instalarlos a través de ``pip install``. Sin embargo, ya he instalado estos módulos en el entorno virtual, por lo que no será necesario que los instale en su sistema.*
 
 ### Programación
  
