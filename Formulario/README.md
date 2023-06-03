@@ -61,6 +61,8 @@
 
 - **Conexión a la Base de Datos**
 
+*En esta función se establece la conexión con la base de datos. Si se ingresa "sí", se genera la conexión; de lo contrario, si se ingresa "no", el sistema redirige directamente al Menú con los formularios. Además, se muestra un mensaje destacado en el Banner para recordar al usuario que se encuentra en modo sin conexión.*
+
 ![Base de datos](https://github.com/Lucas-devSoft/Python/assets/111676352/f441dd89-3e06-498d-b38b-efc2868a6de7)
 
 - **Tipo de Conexión**
