@@ -87,15 +87,19 @@
 
 - **Conexión Mongo Atlas**
 
-*En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mongo Atlas para establecer la conexión con su base de datos. Esto permitirá almacenar las operaciones realizadas.*
+
 
 ![Cuenta](https://github.com/Lucas-devSoft/Python/assets/111676352/e26aae56-5e1d-4504-a4a8-5a492607cfea)
 
 - **Crear Base de Datos desde Atlas con un nombre específico**
 
+*En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mongo Atlas para establecer la conexión con su base de datos. Esto permitirá almacenar todos los resultados de los formularios.*
+
 ![Crear](https://github.com/Lucas-devSoft/Python/assets/111676352/d26bdf4d-0df6-44f7-b222-c322c751a9f3)
 
 - **Base de datos atlas creación y existencia**
+
+*En las siguientes imágenes se presentan distintos mensajes destacados que surgen cuando se crea una base de datos inexistente pero creandola o existente con aviso, permitiendo así continuar con el programa.*
 
 ![Creada](https://github.com/Lucas-devSoft/Python/assets/111676352/4b350cee-5033-4d1b-b165-53608629ccab)
 
@@ -109,7 +113,7 @@
 
 - **Tipos de Errores**
 
-...
+*La función del error es alertar al usuario en todo momento cuando haya ingresado una respuesta incorrecta. Por lo tanto, para poder avanzar en el flujo del programa, será necesario que vuelva a intentarlo hasta que ingrese los datos correctos; de lo contrario, los mensajes de error persistirán.*
 
 - **Error (Conexión a la Base de Datos)**
 
