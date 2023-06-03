@@ -17,13 +17,13 @@
  
 ## Descripción del Proyecto
  
-Este proyecto se ha desarrollado en un entorno Windows para ejecutarse en la consola del sistema operativo. Es un proyecto simulado de formularios en el cual la información ingresada en cada campo se almacenará en una base de datos MongoDB si el usuario así lo desea. En caso contrario, las funcionalidades serán diferentes, lo que implica que apareceran distintos menúes cuando no se establezca conexión con una base de datos. Además, se incluirá otra funcionalidad que permitirá enviar la información a través del correo electrónico si el usuario lo desea.
+*Este proyecto se ha desarrollado en un entorno Windows para ejecutarse en la consola del sistema operativo. Es un proyecto simulado de formularios en el cual la información ingresada en cada campo se almacenará en una base de datos MongoDB si el usuario así lo desea. En caso contrario, las funcionalidades serán diferentes, lo que implica que apareceran distintos menúes cuando no se establezca conexión con una base de datos. Además, se incluirá otra funcionalidad que permitirá enviar la información a través del correo electrónico si el usuario lo desea.*
  
 ## Herramientas Utilizadas
  
 ### Entorno Virtual
 
-...
+*En el proyecto, empleo módulos necesarios mediante un entorno virtual para brindar un acceso sencillo a la aplicación sin requerir ninguna descarga en el sistema del usuario. Todos los componentes necesarios están instalados en el entorno virtual, lo que permite ejecutarlo en la consola de su propio sistema.*
  
 ### Módulos
  
