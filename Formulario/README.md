@@ -67,19 +67,27 @@
 
 - **Tipo de Conexión**
 
+*En esta funcionalidad, se solicita al usuario que elija el tipo de conexión que desea establecer con MongoDB. Puede optar por una conexión local o utilizar una cuenta en MongoDB Atlas para almacenar los datos.*
+
 ![Tipo conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/a02da7c9-da08-4847-85c9-894fa86df469)
 
 - **Crear una Base de Datos Local con un nombre específico**
 
+*Esta funcionalidad del menú permite al usuario elegir entre dos opciones: la primera consiste en avanzar creando una base de datos con un nombre específico elegido por él mismo, mientras que la segunda opción es avanzar directamente desde una base de datos predeterminada que he nombrado directamente en el código. Esta base de datos predeterminada se creará automáticamente cuando el usuario responda "no" y podrá cargar sus datos allí. En caso de que el usuario elija "no", la base de datos generada se llamará "Formularios" y contendrá una colección llamada "Datos". Por otro lado, si el usuario responde "sí", la base de datos se llamará según la elección del usuario.*
+
 ![Creacion](https://github.com/Lucas-devSoft/Python/assets/111676352/3d746043-6fbe-4737-ad65-680fc7dc5ec7)
 
 - **Base de Datos Local creación y existencia**
+
+*En esta funcionalidad, el usuario tiene la capacidad de crear una base de datos (BD) con el nombre de su elección y agregar sus datos dentro de ella. Además, se implementa una detección automática para verificar si la BD ya existe*
 
 ![Creada](https://github.com/Lucas-devSoft/Python/assets/111676352/324515f7-d0a0-43b0-9f32-2202223d0e7c)
 
 ![Existente](https://github.com/Lucas-devSoft/Python/assets/111676352/8746e6fd-f10c-452e-96fd-e5f12d11955b)
 
 - **Conexión Mongo Atlas**
+
+*En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mongo Atlas para establecer la conexión con su base de datos. Esto permitirá almacenar las operaciones realizadas.*
 
 ![Cuenta](https://github.com/Lucas-devSoft/Python/assets/111676352/e26aae56-5e1d-4504-a4a8-5a492607cfea)
 
