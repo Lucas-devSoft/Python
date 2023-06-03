@@ -27,15 +27,15 @@
  
 ### Módulos
  
-*En el proyecto, utilizo los módulos **colorama**, **pymongo**, **smtplib** y **getpass**. Los modulos como **smtplib** y **getpass** estan preinstalados en python, **colorama** y **pymongo** no están incluidos en la instalación predeterminada de Python. Por lo tanto, es necesario instalarlos a través de ``pip install``. Sin embargo, ya he instalado estos módulos en el entorno virtual, por lo que no será necesario que los instale en su sistema.*
+*En el proyecto, utilizo los módulos **colorama**, **pymongo**, **smtplib** y **getpass**. Los modulos como **smtplib** y **getpass** estan preinstalados en python, **colorama** y **pymongo** no están incluidos en la instalación predeterminada de Python. Por lo tanto, es necesario instalarlos a través de  ``pip install``. Sin embargo, ya he instalado estos módulos en el entorno virtual, por lo que no será necesario que los instale en su sistema.*
 
 ### Programación
  
-...
+*El programa fue implementado en Python y se desarrolló utilizando el entorno de programación Visual Studio Code. Los códigos se organizaron en módulos separados, lo que permite realizar cambios de manera más sencilla en partes específicas del programa. Esta práctica no solo mejora la flexibilidad para modificar el software, sino que también ayuda a mantener un código más organizado y descriptivo.*
  
 ### Base de Datos
  
-...
+*La base de datos que utilizo en este proyecto es mongoDB, puede conectarse en modo local o con cuenta personal atlas.*
  
 ## Funcionalidades
  
