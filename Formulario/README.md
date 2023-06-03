@@ -87,13 +87,13 @@
 
 - **Conexión Mongo Atlas**
 
-
+En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mongo Atlas para establecer la conexión con su base de datos. Esto permitirá almacenar las operaciones realizadas.
 
 ![Cuenta](https://github.com/Lucas-devSoft/Python/assets/111676352/e26aae56-5e1d-4504-a4a8-5a492607cfea)
 
 - **Crear Base de Datos desde Atlas con un nombre específico**
 
-*En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mongo Atlas para establecer la conexión con su base de datos. Esto permitirá almacenar todos los resultados de los formularios.*
+*En esta funcionalidad un vez ya dento de la cuenta Mongo Atlas podremos crear una base de datos con nombre específico o generar una base de datos por defecto que se encuentra en el código. Esto permitirá almacenar todos los resultados de los formularios.*
 
 ![Crear](https://github.com/Lucas-devSoft/Python/assets/111676352/d26bdf4d-0df6-44f7-b222-c322c751a9f3)
 
