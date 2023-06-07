@@ -109,17 +109,39 @@ En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mong
 
 *En esta ocasión, se notifica que el usuario ha completado el formulario y no se le permitirá volver a completarlo hasta que realice el reinicio.*
 
-![Completado](https://github.com/Lucas-devSoft/Python/assets/111676352/383c1918-55b2-4fc1-910c-984c6b55834c)
+![Completado](https://github.com/Lucas-devSoft/Python/assets/111676352/7d268946-b8fc-4aaa-b4f4-ef2cedc2adc6)
 
 ![Previamente Completado](https://github.com/Lucas-devSoft/Python/assets/111676352/2bc5e137-2d33-469b-b12b-c24b6fde0b5e)
 
 - **Los 3 Formularios completos**
 
-*Una vez que los tres formularios estén completos, se activará el menú de visualización y restablecimiento de formularios.*
+*Una vez que los tres formularios estén completos, se activará el menú para resetear los formularios, visualizar los datos, exportarlo o bien mandarlo por correo electronico.*
 
-![nuevo menu](https://github.com/Lucas-devSoft/Python/assets/111676352/b787b893-5c98-4d2a-b995-faf80eabb020)
+![Nuevo Menu](https://github.com/Lucas-devSoft/Python/assets/111676352/6c8826c4-a097-4fc1-91d2-bae218d1482b)
 
-- **Visualización del formulario**
+- **Guardado de Datos**
+
+*Una vez que se guardan los datos se activará las visualizaciones de cada formulario.*
+
+![Guardado](https://github.com/Lucas-devSoft/Python/assets/111676352/66af4a53-469c-49f3-aeba-068f6917e69b)
+
+- **Visualización del formulario A**
+
+![Visualizacion](https://github.com/Lucas-devSoft/Python/assets/111676352/522202f7-9dfd-4104-a49f-52a413ed857a)
+
+- **Visualización del formulario B**
+
+...
+
+- **Visualización del formulario C**
+
+...
+
+- **Exportación de furmularios a CSV**
+
+...
+
+-- **Envio de los formulario por Gmail**
 
 ...
 
