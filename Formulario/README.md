@@ -115,7 +115,7 @@ En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mong
 
 - **Los 3 Formularios completos**
 
-*Una vez que los tres formularios estén completos, se activará el menú para resetear los formularios, visualizar los datos, exportarlo o bien mandarlo por correo electronico.*
+*Una vez que los tres formularios estén completos, se activará el menú para resetear los formularios, guardar los datos, exportarlo a un archivo externo o bien mandarlo por correo electrónico.*
 
 ![Nuevo Menu](https://github.com/Lucas-devSoft/Python/assets/111676352/6c8826c4-a097-4fc1-91d2-bae218d1482b)
 
