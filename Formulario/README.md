@@ -123,7 +123,9 @@ En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mong
 
 *Una vez que se guardan los datos se activará las visualizaciones de cada formulario.*
 
-![Guardado](https://github.com/Lucas-devSoft/Python/assets/111676352/66af4a53-469c-49f3-aeba-068f6917e69b)
+![Guardado](https://github.com/Lucas-devSoft/Python/assets/111676352/4b5e4907-56f6-4e11-b56d-66aa7bb0727d)
+
+![Nuevo Menu](https://github.com/Lucas-devSoft/Python/assets/111676352/66af4a53-469c-49f3-aeba-068f6917e69b)
 
 - **Visualización del formulario A**
 
@@ -141,7 +143,7 @@ En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mong
 
 ...
 
--- **Envio de los formulario por Gmail**
+- **Envio de los formulario por Gmail**
 
 ...
 
