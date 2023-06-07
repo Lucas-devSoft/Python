@@ -129,15 +129,15 @@ En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mong
 
 - **Visualización del formulario A**
 
-![Visualizacion](https://github.com/Lucas-devSoft/Python/assets/111676352/522202f7-9dfd-4104-a49f-52a413ed857a)
+![A](https://github.com/Lucas-devSoft/Python/assets/111676352/522202f7-9dfd-4104-a49f-52a413ed857a)
 
 - **Visualización del formulario B**
 
-...
+![B](https://github.com/Lucas-devSoft/Python/assets/111676352/73bdc677-3381-455e-95bd-0e8275f2bbee)
 
 - **Visualización del formulario C**
 
-...
+![C](https://github.com/Lucas-devSoft/Python/assets/111676352/ad90328c-315b-4900-ac95-1a7b79f65fc0)
 
 - **Exportación de furmularios a CSV**
 
