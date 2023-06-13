@@ -120,23 +120,25 @@ Además, al estar conectado, se ofrecerán más funcionalidades, como la posibil
 
 ![guardado](https://github.com/Lucas-devSoft/Python/assets/111676352/6d31b907-a1ae-4473-8705-c53efdd97eb8)
 
-![Nuevo Menu](https://github.com/Lucas-devSoft/Python/assets/111676352/66af4a53-469c-49f3-aeba-068f6917e69b)
+![visualizacion](https://github.com/Lucas-devSoft/Python/assets/111676352/65c1f4bb-f4c8-4421-b53f-49c7894f6335)
 
 - **Visualización del formulario A**
 
-![A](https://github.com/Lucas-devSoft/Python/assets/111676352/522202f7-9dfd-4104-a49f-52a413ed857a)
+![A](https://github.com/Lucas-devSoft/Python/assets/111676352/3ad4ea2d-c829-457e-94f5-7467b243ca7e)
 
 - **Visualización del formulario B**
 
-![B](https://github.com/Lucas-devSoft/Python/assets/111676352/73bdc677-3381-455e-95bd-0e8275f2bbee)
+![B](https://github.com/Lucas-devSoft/Python/assets/111676352/d7cccd5d-ace7-42dd-990d-737783228c9e)
 
 - **Visualización del formulario C**
 
-![C](https://github.com/Lucas-devSoft/Python/assets/111676352/ad90328c-315b-4900-ac95-1a7b79f65fc0)
+![C](https://github.com/Lucas-devSoft/Python/assets/111676352/0a7644d6-ff0e-40bc-8159-fdaa9c1c4546)
 
-- **Exportación de furmularios a CSV**
+- **Exportación de furmularios a JSON**
 
-...
+![exportacion](https://github.com/Lucas-devSoft/Python/assets/111676352/d628eb4f-631c-49ee-95cf-a0d36992acbf)
+
+
 
 - **Envio de los formulario por Gmail**
 
