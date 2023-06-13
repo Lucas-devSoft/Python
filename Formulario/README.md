@@ -156,15 +156,15 @@ Además, al estar conectado, se ofrecerán más funcionalidades, como la posibil
 
 - **Error (Conexión a la Base de Datos)**
 
-![Error conexion](https://github.com/Lucas-devSoft/Python/assets/111676352/832d52c3-cd22-4b9d-a0c6-a9693b0800bb)
+![error conexion](https://github.com/Lucas-devSoft/Python/assets/111676352/5f89a5df-5c39-41b0-a041-c42186e95691)
 
 - **Error (Menú)**
 
-![Error Menu](https://github.com/Lucas-devSoft/Python/assets/111676352/75a6ed01-cb90-4c93-94e0-cec49904a5cb)
+![error menu](https://github.com/Lucas-devSoft/Python/assets/111676352/ef446434-dcdc-40a0-af5d-5a4e4990f8cc)
 
 - **Error (Tipo de Conexión)**
 
-![Error conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/56d2b21c-ef30-4598-bc60-be34c1f7f079)
+![error_tipo](https://github.com/Lucas-devSoft/Python/assets/111676352/4a6544a6-1fd4-42da-836b-e63a590c20d9)
 
 - **Error (Crear BD)**
 
