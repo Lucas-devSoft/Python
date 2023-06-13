@@ -168,19 +168,27 @@ Además, al estar conectado, se ofrecerán más funcionalidades, como la posibil
 
 - **Error (Crear BD)**
 
-![Error BD](https://github.com/Lucas-devSoft/Python/assets/111676352/f35e575a-1e17-4e97-b537-e12cce4034b7)
+![error crear](https://github.com/Lucas-devSoft/Python/assets/111676352/44383565-4873-4455-829b-15b002e0a827)
 
 - **Error (Formato Nombre BD)
 
-![Formato](https://github.com/Lucas-devSoft/Python/assets/111676352/24a5c5d8-b48a-4894-9297-21d2e63b26c4)
+![error formato](https://github.com/Lucas-devSoft/Python/assets/111676352/4f21d9e3-3bd6-4602-90d4-e2db23248d24)
 
 - **Error (Campo Invalido)**
 
-![Formato invalido](https://github.com/Lucas-devSoft/Python/assets/111676352/461b9d65-7dcc-4366-b037-a42336ce30f5)
+![error campo](https://github.com/Lucas-devSoft/Python/assets/111676352/1d4a1a36-2a46-4b91-835c-64c4630565c3)
+
+- **Error menu de formularios completo**
+
+![error extendido](https://github.com/Lucas-devSoft/Python/assets/111676352/ea56470d-2ee7-4e89-9b29-d5dfd295cd32)
+
+- **Error de menu visualizaciones**
+
+![error visualizaciones](https://github.com/Lucas-devSoft/Python/assets/111676352/27403752-41aa-49ca-85c0-204342e8fc5c)
 
 - **Mensaje de Cierre**
 
-![Cierre](https://github.com/Lucas-devSoft/Python/assets/111676352/ca20b941-20ba-4695-9146-abda0a58918f)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/78b94648-eddd-437e-a819-b0daf6bb0626)
 
 <hr>
 
