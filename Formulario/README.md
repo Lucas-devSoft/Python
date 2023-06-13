@@ -134,11 +134,15 @@ Además, al estar conectado, se ofrecerán más funcionalidades, como la posibil
 
 ![C](https://github.com/Lucas-devSoft/Python/assets/111676352/0a7644d6-ff0e-40bc-8159-fdaa9c1c4546)
 
-- **Exportación de furmularios a JSON**
+- **Exportación de furmularios a JSON** 
+
+*La exportación de la información de los formularios verificará la existencia del archivo de exportación. En caso de que el archivo no exista, se creará automáticamente. Por otro lado, si el archivo ya existe, se mostrará una advertencia de su existencia.*
 
 ![exportacion](https://github.com/Lucas-devSoft/Python/assets/111676352/d628eb4f-631c-49ee-95cf-a0d36992acbf)
 
+![ya existe](https://github.com/Lucas-devSoft/Python/assets/111676352/24c26c81-d790-4813-96e1-82b42feb8fe5)
 
+![archivo creado](https://github.com/Lucas-devSoft/Python/assets/111676352/af21fd66-7ce3-4318-8756-b512cf0629fa)
 
 - **Envio de los formulario por Gmail**
 
