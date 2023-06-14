@@ -159,7 +159,7 @@ Además, al estar conectado, se ofrecerán más funcionalidades, como la posibil
 
 ![envio](https://github.com/Lucas-devSoft/Python/assets/111676352/675aae16-df65-41e0-b6dc-f3cb83a96345)
 
-![llego](https://github.com/Lucas-devSoft/Python/assets/111676352/c9e5de14-0370-49f5-8e12-8a16ef3bb917)
+![llego](https://github.com/Lucas-devSoft/Python/assets/111676352/433fe785-c30a-4866-a398-6ce0df23aed6)
 
 <hr>
 
