@@ -7,7 +7,7 @@
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Herramientas utilizadas](#herramientas-utilizadas)
 - [Funcionalidades](#funcionalidades)
-  - Banner(#Banner)       
+  - [Banner](#Banner)       
     - Con Conexión
     - Sin conexion         
   - [Interacciones](#Interacciones)
@@ -38,7 +38,7 @@
  
 ## Funcionalidades
  
-- **Banner**
+## Banner
 
 *El banner en general proporciona detalles sobre la conexión a la base de datos MongoDB, como el estado, el nombre del servidor, el nombre de la base de datos y la documentación con la que se está trabajando, así como la versión de MongoDB. En este caso particular, la información que se muestra corresponde a la base de datos predeterminada generada automáticamente por el código. Sin embargo, si el usuario crea una base de datos con su propio nombre, se establecerá la conexión con esa base de datos y el contenido del banner cambiará en consecuencia.*
  
