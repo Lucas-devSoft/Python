@@ -7,35 +7,34 @@
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Herramientas utilizadas](#herramientas-utilizadas)
 - [Funcionalidades](#funcionalidades)
-  - Banner        
+  - Banner(#Banner)       
     - Con Conexión
     - Sin conexion         
-  - Interacciones
-  - Mensajes de Errores
+  - [Interacciones](#Interacciones)
+  - [Errores](#Errores)
 - [Desarrollador](#desarrollador)
  
 ## Descripción del Proyecto
  
-*Desarrollé esta aplicación en el entorno de Windows utilizando el IDE Visual Studio Code para su ejecución en la consola del sistema operativo. Se trata de un proyecto simulado de formularios en el cual la información ingresada en cada campo se almacenará en una base de datos MongoDB, siempre y cuando el usuario lo desee. En caso contrario, algunas funcionalidades estarán limitadas y se mostrarán diferentes menús cuando no se establezca la conexión.
-Además, al estar conectado, se ofrecerán más funcionalidades, como la posibilidad de enviar la información a través de Gmail y exportarla en un archivo externo en formato JSON o CSV.*
+*He desarrollado esta aplicación en el entorno de Windows utilizando el IDE Visual Studio Code para su ejecución en la consola del sistema operativo. El proyecto simula formularios en los que se puede ingresar información en varios campos. Esta información se almacenará en una base de datos (MongoDB) si el usuario lo desea. La funcionalidad principal de la aplicación depende de la conexión a la base de datos: si no se establece una conexión, la opción de guardar no estará disponible. Además, la aplicación ofrece otras funcionalidades, como la capacidad de enviar la información a través de Gmail y exportarla en formato JSON a un archivo externo.*
  
 ## Herramientas Utilizadas
  
 ### Entorno Virtual
 
-*En el proyecto, empleo módulos necesarios mediante un entorno virtual para brindar un acceso sencillo a la aplicación sin requerir ninguna descarga en el sistema del usuario. Todos los componentes necesarios están instalados en el entorno virtual, lo que permite ejecutarlo en la consola de su propio sistema.*
+*En el proyecto, empleo los módulos necesarios en un entorno virtual para brindar un acceso sencillo a la aplicación sin requerir ninguna descarga en el sistema del usuario. Todos los componentes necesarios están instalados en el entorno virtual, lo que permite ejecutarlo en la consola de su propio sistema.*
  
 ### Módulos
  
-*En el proyecto, utilizo los módulos **colorama**, **pymongo**, **smtplib** y **getpass**. Los modulos como **smtplib** y **getpass** estan preinstalados en python, **colorama** y **pymongo** no están incluidos en la instalación predeterminada de Python. Por lo tanto, es necesario instalarlos a través de  ``pip install``. Sin embargo, ya he instalado estos módulos en el entorno virtual, por lo que no será necesario que los instale en su sistema.*
+*En el proyecto, utilizo los módulos **colorama**, **pymongo**, **smtplib** y **getpass**. Los modulos como **smtplib** y **getpass** estan preinstalados en python, **colorama** y **pymongo** no están incluidos en la instalación predeterminada de Python.*
 
 ### Programación
  
-*El programa fue codificado en Python, utilizando la práctica de separar el código en módulos correspondientes. Esta estructura me permite realizar cambios de manera más sencilla en partes específicas del programa. Esta práctica no solo mejora la flexibilidad para modificar el software, sino que también contribuye a mantener un código más organizado y descriptivo.*
+*El proyecto se codificó en Python, siguiendo la práctica de separar el código en módulos correspondientes. Esta estructura me permitió realizar cambios de forma más sencilla en partes específicas del programa. Esta práctica no solo aumenta la flexibilidad para modificar el software, sino que también ayuda a mantener un código más organizado y descriptivo.*
  
 ### Base de Datos
  
-*La base de datos que utilizo en este proyecto es mongoDB, puede conectarse en modo local o con su cuenta MongoDB atlas.*
+*La base de datos que utilizo en este proyecto es mongoDB, el usuario puede conectarse en modo local o con su cuenta MongoDB atlas.*
  
 ## Funcionalidades
  
@@ -43,11 +42,11 @@ Además, al estar conectado, se ofrecerán más funcionalidades, como la posibil
 
 *El banner en general proporciona detalles sobre la conexión a la base de datos MongoDB, como el estado, el nombre del servidor, el nombre de la base de datos y la documentación con la que se está trabajando, así como la versión de MongoDB. En este caso particular, la información que se muestra corresponde a la base de datos predeterminada generada automáticamente por el código. Sin embargo, si el usuario crea una base de datos con su propio nombre, se establecerá la conexión con esa base de datos y el contenido del banner cambiará en consecuencia.*
  
-- **Banner con conexión**
+- **Con conexión**
 
 ![conectado](https://github.com/Lucas-devSoft/Python/assets/111676352/30719ca3-ce31-4704-9684-4196a91c18d0)
 
-- **Banner sin conexión**
+- **Sin conexión**
 
 ![sin conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/d9d2e3e4-7338-4e76-b2c9-f9fe435209c1)
 
@@ -55,7 +54,7 @@ Además, al estar conectado, se ofrecerán más funcionalidades, como la posibil
 
 *Cada interacción en el programa cumple una función específica: permitir al usuario elegir lo que desea hacer y esperar una respuesta precisa que se ajuste a su solicitud, para así continuar con las diferentes funcionalidades del programa.*
 
-- **Genera la conexión con la Base de Datos**
+- **Generando la conexión con la Base de Datos**
 
 *Con esta funcionalidad, se establece la conexión con la base de datos MongoDB. Puedes generarla de manera local o utilizar una cuenta en MongoDB Atlas. Si seleccionas "no", se omitirá este paso y accederás directamente al menú de los formularios. El banner mostrará al usuario si se encuentra en modo de conexión o sin conexión.*
 
@@ -67,7 +66,7 @@ Además, al estar conectado, se ofrecerán más funcionalidades, como la posibil
 
 ![tipo de conexion](https://github.com/Lucas-devSoft/Python/assets/111676352/885354d6-f44d-4242-baeb-8525ef29818d)
 
-- **Crear una Base de Datos con un nombre especifico en modo local**
+- **Creando un nombre especifico en modo local**
 
 *En este menú, el usuario tiene dos opciones: la primera es crear una base de datos con un nombre específico ingresado por el usuario, mientras que la segunda opción permite avanzar directamente desde una base de datos predeterminada que he definido en el código.*
 
