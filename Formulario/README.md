@@ -50,7 +50,7 @@
 
 ![sin conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/d9d2e3e4-7338-4e76-b2c9-f9fe435209c1)
 
-- **Interacciones**
+## Interacciones
 
 *Cada interacción en el programa cumple una función específica: permitir al usuario elegir lo que desea hacer y esperar una respuesta precisa que se ajuste a su solicitud, para así continuar con las diferentes funcionalidades del programa.*
 
@@ -162,7 +162,7 @@
 
 <hr>
 
-- **Tipos de Errores**
+## Errores
 
 *La función del error es alertar al usuario en todo momento cuando haya ingresado una respuesta incorrecta. Por lo tanto, para poder avanzar en el flujo del programa, será necesario que vuelva a intentarlo hasta que ingrese los datos correctos; de lo contrario, los mensajes de error persistirán.*
 
