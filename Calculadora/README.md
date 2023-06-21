@@ -47,13 +47,13 @@
 
 *La imagen proporciona detalles exhaustivos, como el tipo de conexión, el nombre de la base de datos a la que está conectada, así como su colección y la versión de MongoDB. En este caso específico, la información que se muestra es la base de datos predeterminada, generada automáticamente a través del código. Sin embargo, si el usuario crea una base de datos con un nombre específico, se establecerá la conexión con esa base de datos y el banner cambiará en consecuencia.*
 
-![Con conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/445f99d0-0476-4c67-973b-4916ce4b5ed7)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/6ec1ce19-2f73-4857-8919-97f938d2c2f4)
 
 - **Banner sin Conexión**
 
 *La imagen ilustra el cambio de estado a "sin conexión" debido a la decisión del usuario de no conectarse a la base de datos. El banner indica claramente que el sistema está en modo sin conexión, lo que implica que no se guardarán datos.*
 
-![Sin conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/0a913a95-74df-451b-955e-1bf570bf3846)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/08053763-37fe-4020-8e72-a734046a48a4)
 
 - **Interacciones**
 
@@ -63,31 +63,31 @@
 
 *Esta función tiene como propósito dar una cálida bienvenida al usuario, además de su otra utilidad que consiste en establecer una conexión con la base de datos y asignar la correspondencia correspondiente a cada operación almacenada.*
 
-![Nombre](https://github.com/Lucas-devSoft/Python/assets/111676352/cc10ba01-2f0f-4f47-9974-610f5739e405)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/3af36988-2147-44e5-a6d7-88743c9db6ad)
 
 - **Conexión a la Base de Datos**
 
 *En esta función se establece la conexión con la base de datos. Si se ingresa "sí", se genera la conexión; de lo contrario, si se ingresa "no", el sistema redirige directamente al Menú de la Calculadora. Además, se muestra un mensaje destacado en el Banner para recordar al usuario que se encuentra en modo sin conexión.*
 
-![Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/e6b7fb3f-0a7c-440a-b309-46ecf03e2efb)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/5314a5b6-5618-4d48-b8c7-24a3cbbc8532)
 
 - **Tipo de Conexión**
 
 *En esta funcionalidad, se solicita al usuario que elija el tipo de conexión que desea establecer con MongoDB. Puede optar por una conexión local o utilizar una cuenta en MongoDB Atlas para almacenar los datos.*
 
-![Tipo Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/4093a8e9-cb1b-4792-b4ab-4f6ab6299a26)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/3a3b9842-55db-4c58-921c-24dab1fab029)
 
 - **Crear una Base de Datos Local con un nombre específico**
 
 *Esta funcionalidad del menú permite al usuario elegir entre dos opciones: la primera consiste en avanzar creando una base de datos con un nombre específico elegido por él mismo, mientras que la segunda opción es avanzar directamente desde una base de datos predeterminada que he nombrado directamente en el código. Esta base de datos predeterminada se creará automáticamente cuando el usuario responda "no" y podrá cargar sus datos allí. En caso de que el usuario elija "no", la base de datos generada se llamará "Calculadora" y contendrá una colección llamada "Historial". Por otro lado, si el usuario responde "sí", la base de datos se llamará según la elección del usuario.*
 
-![Crear BD](https://github.com/Lucas-devSoft/Python/assets/111676352/ed5c49c9-08bd-4703-b601-180d5bf4d63b)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/2858b0a8-997c-47b2-9a66-e3e17712cd33)
 
 - **Base de Datos Local creación y existencia**
 
 *En esta funcionalidad, el usuario tiene la capacidad de crear una base de datos (BD) con el nombre de su elección y agregar sus datos dentro de ella. Además, se implementa una detección automática para verificar si la BD ya existe*
 
-![BD Creadad](https://github.com/Lucas-devSoft/Python/assets/111676352/3d5c9036-c901-4afa-a4bc-f29ba4dbf24e)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/f3c54eb8-266a-4caa-9598-16ba23a3d0c4)
 
 *En caso de que la BD que se intenta crear ya esté presente, se mostrará el mensaje "La base de datos ya existe y está activada para guardar".*
 
@@ -97,13 +97,13 @@
 
 *En esta funcionalidad, se solicitarán al usuario los datos de su cuenta en Mongo Atlas para establecer la conexión con su base de datos. Esto permitirá almacenar las operaciones realizadas.*
 
-![Conexión Atlas](https://github.com/Lucas-devSoft/Python/assets/111676352/62d992fe-412b-4b2b-9791-085f373a4262)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/feb5bc2a-1d8a-4ed3-a260-a1b27a38eeeb)
 
 - **Crear Base de Datos desde Atlas con un nombre específico**
 
 *Esta funcionalidad se encarga de crear una nueva base de datos con el nombre elegido por el usuario en mongoDB Atlas, donde se podrán almacenar todas las operaciones realizadas en la calculadora.*
 
-![BD Nombre Especifico](https://github.com/Lucas-devSoft/Python/assets/111676352/c7b9f9b7-65fd-4abd-8a67-f5a9a07d975c)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/d8b7a81b-960f-4d90-ad84-1eb33d04ee0a)
 
 - **Base de datos atlas creación y existencia**
 
@@ -117,11 +117,11 @@
 
 *El historial se genera cuando el usuario se conecta a la base de datos.*
 
-![Historial](https://github.com/Lucas-devSoft/Python/assets/111676352/29a13a51-42a3-41c8-aa6f-aa94c9559c8b)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/1d374f6c-9d55-4e08-902a-d87d1ecf1915)
 
 *En caso contrario, si el usuario está desconectado, recibirá un recordatorio indicando que no está conectado.*
 
-![Recondatorio](https://github.com/Lucas-devSoft/Python/assets/111676352/0120bec2-352f-4e37-b2c9-df72c2fb0d17)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/376679f7-3064-4ea2-a3d5-eea1b2ba83f4)
 
 <hr>
 
@@ -131,23 +131,23 @@
 
 - **Error (Solicitud del Nombre)**
 
-![Nombre](https://github.com/Lucas-devSoft/Python/assets/111676352/09d6d720-afb8-478f-a639-78acec68826d)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/fb139e8b-daf7-45bb-bd38-c29e8c2ad21b)
 
 - **Error (Conexión a la Base de Datos)**
 
-![Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/ee0b5a77-f53a-4bc9-b7ea-0250d07ef2c1)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/13f4baa4-ee52-4155-94be-66a805dd9cd3)
 
 - **Error (Menú)**
 
-![Menú](https://github.com/Lucas-devSoft/Python/assets/111676352/ad3c140f-d2a6-444d-8e96-7206c767329b)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/1a80eedf-eeb2-40b5-951a-f58bc51c1c25)
 
 - **Error (Tipo de Conexión)**
 
-![Tipo Conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/e8fab442-6cf1-4917-bc8e-6363da32e48f)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/60daba34-9bbb-483f-a967-d226a1746ff3)
 
 - **Error (Datos Invalidos)**
 
-![Datos](https://github.com/Lucas-devSoft/Python/assets/111676352/9585790e-f005-47db-97d3-3d051d258e4b)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/9c94c9b1-a3c9-4b36-ab07-20c369d20bfb)
 
 <hr>
 
