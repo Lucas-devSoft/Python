@@ -42,13 +42,25 @@
 
 *El banner en general proporciona detalles sobre la conexión a la base de datos MongoDB, como el estado, el nombre del servidor, el nombre de la base de datos y la documentación con la que se está trabajando, así como la versión de MongoDB. En este caso particular, la información que se muestra corresponde a la base de datos predeterminada generada automáticamente por el código. Sin embargo, si el usuario crea una base de datos con su propio nombre, se establecerá la conexión con esa base de datos y el contenido del banner cambiará en consecuencia.*
  
-- **Con conexión**
+- **Local - Con conexión, base de datos por defecto**
 
-![conectado](https://github.com/Lucas-devSoft/Python/assets/111676352/30719ca3-ce31-4704-9684-4196a91c18d0)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/27101c31-aa44-48d8-a662-6f034d215939)
+
+- **Local - Con conexión, con nombre de base de datos elegido por el usuario** 
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/9a2f4153-5087-4bf2-b98d-1b2749701bed)
+
+- **Nube - Con conexión, base de datos por defecto**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/b373e536-c898-48f7-9d90-b6257ddeb5f5)
+
+- **Nube - Con conexión, con nombre de base de datos elegido por el usuario**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/9b23af85-3682-4d4b-9442-de3ee357057e)
 
 - **Sin conexión**
 
-![sin conexión](https://github.com/Lucas-devSoft/Python/assets/111676352/d9d2e3e4-7338-4e76-b2c9-f9fe435209c1)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/83282db0-d140-4923-af17-96f57cb396ba)
 
 ## Interacciones
 
@@ -56,109 +68,129 @@
 
 - **Generando la conexión con la Base de Datos**
 
-*Con esta funcionalidad, se establece la conexión con la base de datos MongoDB. Puedes generarla de manera local o utilizar una cuenta en MongoDB Atlas. Si seleccionas "no", se omitirá este paso y accederás directamente al menú de los formularios. El banner mostrará al usuario si se encuentra en modo de conexión o sin conexión.*
-
 ![Conexion](https://github.com/Lucas-devSoft/Python/assets/111676352/a06ef060-7e62-45f3-a7ca-ece24362038d)
 
 - **Tipo de Conexión**
 
-*En esta funcionalidad, se solicita al usuario que elija el tipo de conexión que desea establecer con MongoDB. Puede optar por una conexión local o utilizar una cuenta en MongoDB Atlas para almacenar los datos.*
-
 ![tipo de conexion](https://github.com/Lucas-devSoft/Python/assets/111676352/885354d6-f44d-4242-baeb-8525ef29818d)
 
-- **Creando un nombre especifico en modo local**
+- **Local - Creando base de datos con un renombre por el usuario**
 
-*En este menú, el usuario tiene dos opciones: la primera es crear una base de datos con un nombre específico ingresado por el usuario, mientras que la segunda opción permite avanzar directamente desde una base de datos predeterminada que he definido en el código.*
+![Sin título2](https://github.com/Lucas-devSoft/Python/assets/111676352/fbc75659-7979-4ee3-b1c1-900b74ef4fa7)
 
-![crear bd](https://github.com/Lucas-devSoft/Python/assets/111676352/b47066d9-5fcb-48e3-b407-2183a807e459)
+- **Local - Creación y existencia de base de datos**
 
-- **Base de Datos Local creación y existencia**
+**Creacion exitosa**
 
-*El usuario tiene la opción de crear una base de datos con el nombre que desee y agregar los datos del formulario dentro de ella. Además, se verificará si la base de datos existe o no.*
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/75606483-d1dc-4334-8334-24914e50ea68)
 
-![Creado](https://github.com/Lucas-devSoft/Python/assets/111676352/35e4e8dd-28bf-479a-aca4-afb0c6515a3d)
+**Ya existente**
 
-![Existente](https://github.com/Lucas-devSoft/Python/assets/111676352/70d4b8f7-bc88-4bea-98b8-bd7466d6bb47)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/9083b038-5325-4020-9490-e0283cd4ab84)
 
-- **Conexión Mongo Atlas**
+- **Conexión al servidor de MongoDB Atlas**
 
-*Se solicitarán los datos de la cuenta del usuario de MongoDB Atlas para establecer la conexión con su cuenta en la nube. Esto permitirá almacenar la información de los formularios de manera segura y confiable.*
+*Se solicitarán los datos del servidor de la cuenta del usuario de MongoDB Atlas para establecer la conexión con su cuenta en la nube. Esto permitirá almacenar la información de los formularios de manera segura y confiable.*
 
 ![cuenta](https://github.com/Lucas-devSoft/Python/assets/111676352/a0352cf7-b511-4d2b-a2a6-409b219fc442)
 
-- **Crear Base de Datos desde Atlas con un nombre específico**
+- **Nube - Creando base de datos con un renombre por el usuario**
 
-*En esta funcionalidad un vez ya dento de la cuenta Mongo Atlas podremos crear una base de datos con nombre específico o generar una base de datos por defecto que se encuentra en el código. Esto permitirá almacenar todos los resultados de los formularios.*
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/77510c0a-89de-4a25-87c5-d3e977909adb)
 
-![creacion DB](https://github.com/Lucas-devSoft/Python/assets/111676352/15b68485-117a-4c21-b76c-35452d9edd4a)
+- **Nube - Creación y existencia de base de datos**
 
-- **Base de datos atlas creación y existencia**
+**Creación exitosa**
 
-![Creada](https://github.com/Lucas-devSoft/Python/assets/111676352/bcaa5e61-52df-41ad-80fd-458796da00e4)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/4c8dabb1-1224-406c-b309-994a93437a96)
 
-![Existente](https://github.com/Lucas-devSoft/Python/assets/111676352/cbb176f7-6a4e-4973-89f3-b60b31b13fe5)
+**Ya existe**
 
-- **Avisos de Formulario.**
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/ee5ba130-73df-45b0-b4de-be445f10c071)
+
+- **Avisos de Formularios**
 
 *En esta ocasión, se notifica que el usuario ha completado el formulario y no se le permitirá volver a completarlo hasta que realice el reinicio.*
 
-![completado](https://github.com/Lucas-devSoft/Python/assets/111676352/2749db4b-b590-461d-b2a8-c11d8374427a)
+**Completado satisfactoriamente**
 
-![previamente completado](https://github.com/Lucas-devSoft/Python/assets/111676352/676db97c-d53f-4374-9705-2c310535f04f)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/ecd7d1ee-d3a7-4273-95eb-53a0fa05825c)
+
+**Formulario ya completado**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/00b6d9bd-9ff8-486a-8177-57a06e5980e7)
 
 - **Los 3 Formularios completos**
 
-*Una vez que los tres formularios estén completos y si el usuario está conectado a la base de datos, se habilitará un menú especial para gestionar la información. En caso contrario, el menú será limitado, pero aún se podrá restablecer los formularios en cualquier momento.*
+*Una vez que los tres formularios estén completos y si el usuario está conectado a la base de datos, se habilitará una opción del menú para guardar la información. En caso contrario, el menú guardar no aparecera dentro de la misma.*
 
-![completado full](https://github.com/Lucas-devSoft/Python/assets/111676352/d5a108dc-5eb4-40af-9afa-058cdb1ccf33)
+**Con conexión**
 
-- **Guardado de Datos**
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/eb2c0ca5-38de-450b-a6ba-e5c90e421fd3)
+
+**Sin conexión**
+
+*La opcíón guardar no esta habilitada*
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/1da298d7-7368-47ce-a761-eb8f91b752f1)
+
+- **Guardando los Datos**
 
 *Una vez que la información se haya guardado, se activará el menú para visualizar lo que se ha almacenado en la base de datos.*
 
-![guardado](https://github.com/Lucas-devSoft/Python/assets/111676352/6d31b907-a1ae-4473-8705-c53efdd97eb8)
+**Datos guardados**
 
-![visualizacion](https://github.com/Lucas-devSoft/Python/assets/111676352/65c1f4bb-f4c8-4421-b53f-49c7894f6335)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/51c0e1ce-2fac-48d9-8f68-5d90f462df60)
+
+**Menu de visualización habilitado**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/3febeedc-8631-4388-a7ab-69ed252f8fbd)
 
 - **Visualización del formulario A**
 
-![A](https://github.com/Lucas-devSoft/Python/assets/111676352/3ad4ea2d-c829-457e-94f5-7467b243ca7e)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/38bb86c3-4757-43e9-8aec-b62eeeb8c956)
 
 - **Visualización del formulario B**
 
-![B](https://github.com/Lucas-devSoft/Python/assets/111676352/d7cccd5d-ace7-42dd-990d-737783228c9e)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/bc52199a-299e-4aeb-9300-b896bdda268f)
 
 - **Visualización del formulario C**
 
-![C](https://github.com/Lucas-devSoft/Python/assets/111676352/0a7644d6-ff0e-40bc-8159-fdaa9c1c4546)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/b14f9a3f-0532-40da-aedf-212be95e0ad4)
 
 - **Exportación de furmularios a JSON** 
 
 *La exportación de la información de los formularios verificará la existencia del archivo de exportación. En caso de que el archivo no exista, se creará automáticamente. Por otro lado, si el archivo ya existe, se mostrará una advertencia de su existencia.*
 
+*Exportacion exitosa*
+
 ![exportacion](https://github.com/Lucas-devSoft/Python/assets/111676352/d628eb4f-631c-49ee-95cf-a0d36992acbf)
+
+*Archivo existente*
 
 ![ya existe](https://github.com/Lucas-devSoft/Python/assets/111676352/24c26c81-d790-4813-96e1-82b42feb8fe5)
 
+*visualización del contenido*
+
 ![archivo creado](https://github.com/Lucas-devSoft/Python/assets/111676352/af21fd66-7ce3-4318-8756-b512cf0629fa)
-
-- **Envio de los formulario por Gmail**
-
-..
 
 - **Cuenta de ingreso a Gmail**
 
-![Cuenta](https://github.com/Lucas-devSoft/Python/assets/111676352/5c07bc99-9ccf-4331-b566-7eb2b95f7198)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/87df4188-8f09-429b-b465-0b11f1e0cd08)
 
-- **Cuenta ingresada**
+- **Pasos previo para el envio de Gmail**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/543ac34b-ec5c-42d9-9778-8a4c33662407)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/5e2c9ba8-db08-4b3e-b2d8-6c3304a2fc28)
 
-- **Envio exitoso**
+- **Envio del Email**
 
-![envio](https://github.com/Lucas-devSoft/Python/assets/111676352/675aae16-df65-41e0-b6dc-f3cb83a96345)
+*Mensaje enviado con exito*
 
-![llego](https://github.com/Lucas-devSoft/Python/assets/111676352/433fe785-c30a-4866-a398-6ce0df23aed6)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/ac83b385-864f-4436-9fb5-c5c503b65091)
+
+*Correo recibido con exito*
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/feea2a01-d72c-42c2-b133-44beda0825a1)
 
 <hr>
 
