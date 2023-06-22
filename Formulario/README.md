@@ -235,7 +235,7 @@
 
 ## Ejecutable
 
-*Si tenes sistema operativo Windows y tenes curiosidad por probar el programa, te dejo el ejecutable en la carpeta Ejecutable dentro de la subcarpeta vas a encontrar el archivo .exe*
+*Si tenes sistema operativo Windows y tenes curiosidad por probar el programa, te dejo el ejecutable en la carpeta Ejecutable dentro de la subcarpeta dist vas a encontrar el archivo main.exe*
 
 <hr>
    
