@@ -7,11 +7,11 @@
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Herramientas utilizadas](#herramientas-utilizadas)
 - [Funcionalidades](#funcionalidades)
-  - Banner        
+  - [Banner](#Banner)        
     - Con Conexión
     - Sin conexion         
-  - Interacciones
-  - Mensajes de Errores
+  - [Interacciones](#Interacciones)
+  - [Mensajes de Errores](#Tipos-de-Errores)
 - [Ejecutable](#Ejecutable)
 - [Desarrollador](#desarrollador)
  
