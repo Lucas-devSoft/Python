@@ -11,7 +11,7 @@
     - Con Conexión
     - Sin conexion         
   - [Interacciones](#Interacciones)
-  - [Mensajes de Errores](#Tipos-de-Errores)
+  - [Mensajes de Errores](#Errores)
 - [Ejecutable](#Ejecutable)
 - [Desarrollador](#desarrollador)
  
@@ -67,7 +67,7 @@
 
 ![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/44e91780-2f64-427e-9f1c-939f6043717f)
 
-- **Interacciones**
+### Interacciones
 
 *Dado que el proyecto está destinado a una consola, el usuario siempre interactuará con el programa, y cada respuesta esperada le permitirá avanzar en el flujo del proyecto. El usuario podrá elegir lo que desea hacer y continuar con las diversas funcionalidades del programa.*
 
@@ -131,7 +131,7 @@
 
 <hr>
 
-- **Tipos de Errores**
+### Errores
 
 *La función del error es alertar al usuario en todo momento cuando haya ingresado una respuesta incorrecta. Por lo tanto, para poder avanzar en el flujo del programa, será necesario que vuelva a intentarlo hasta que ingrese los datos correctos; de lo contrario, los mensajes de error persistirán.*
 
