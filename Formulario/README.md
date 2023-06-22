@@ -214,10 +214,6 @@
 
 ![error crear](https://github.com/Lucas-devSoft/Python/assets/111676352/44383565-4873-4455-829b-15b002e0a827)
 
-- **Error (Formato Nombre BD)
-
-![error formato](https://github.com/Lucas-devSoft/Python/assets/111676352/4f21d9e3-3bd6-4602-90d4-e2db23248d24)
-
 - **Error (Campo Invalido)**
 
 ![error campo](https://github.com/Lucas-devSoft/Python/assets/111676352/1d4a1a36-2a46-4b91-835c-64c4630565c3)
