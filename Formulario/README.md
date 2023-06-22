@@ -7,11 +7,12 @@
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Herramientas utilizadas](#herramientas-utilizadas)
 - [Funcionalidades](#funcionalidades)
-  - [Banner](#Banner)       
+  - [Banner](#banner)       
     - Con Conexión
     - Sin conexion         
-  - [Interacciones](#Interacciones)
-  - [Errores](#Errores)
+  - [Interacciones](#interacciones)
+  - [Errores](#errores)
+- [Ejecutable](#ejecutable)
 - [Desarrollador](#desarrollador)
  
 ## Descripción del Proyecto
@@ -229,6 +230,12 @@
 - **Mensaje de Cierre**
 
 ![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/78b94648-eddd-437e-a819-b0daf6bb0626)
+
+<hr>
+
+## Ejecutable
+
+*Si tenes sistema operativo Windows y tenes curiosidad por probar el programa, te dejo el ejecutable en la carpeta Ejecutable dentro de la subcarpeta vas a encontrar el archivo .exe*
 
 <hr>
    
