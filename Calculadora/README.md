@@ -39,7 +39,7 @@
  
 ## Funcionalidades
  
-- **Banner**
+### Banner
 
 *La función del banner en el programa consiste en proporcionar al usuario información detallada acerca de los cambios de estado de la conexión con la base de datos. En cada caso de conexión, se mostrará de manera precisa la información correspondiente.*
  
