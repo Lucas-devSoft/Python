@@ -42,13 +42,29 @@
 
 *La función del banner en el programa consiste en proporcionar al usuario información detallada acerca de los cambios de estado de la conexión con la base de datos. En cada caso de conexión, se mostrará de manera precisa la información correspondiente.*
  
-- **Banner con Conexión**
+- **Banner con conexión MongoDB Local**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/6ec1ce19-2f73-4857-8919-97f938d2c2f4)
+**Base de datos por defecto**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/ee26f9ce-9263-46f8-aac6-14b64396ec78)
+
+**Base de datos creada por el usuario**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/125426ac-f418-428a-80ec-9900f3d335f0)
+
+- **Banner con conexión MongoDB Atlas**
+
+**Base de datos por defecto**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/ce6fcda0-1275-4d72-9c0d-b2a6350a710c)
+
+**Base de datos creada por el usuario**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/ccb6b0b4-9218-4008-bf40-7efb2d0a5520)
 
 - **Banner sin Conexión**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/08053763-37fe-4020-8e72-a734046a48a4)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/44e91780-2f64-427e-9f1c-939f6043717f)
 
 - **Interacciones**
 
