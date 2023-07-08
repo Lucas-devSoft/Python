@@ -137,7 +137,7 @@
 
 ![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/154d2e9c-7f9b-4605-a04d-fb1afb589905)
 
-- **Guardando los Datos**
+- **Guardando los datos**
 
 *Una vez que la información se haya guardado, se activará el menú para visualizar lo que se ha almacenado en la base de datos.*
 
@@ -207,37 +207,49 @@
 
 *La función del error es alertar al usuario en todo momento cuando haya ingresado una respuesta incorrecta. Por lo tanto, para poder avanzar en el flujo del programa, será necesario que vuelva a intentarlo hasta que ingrese los datos correctos; de lo contrario, los mensajes de error persistirán.*
 
-- **Error (Conexión a la Base de Datos)**
+- **Error - Conexión a la BD**
 
-![error conexion](https://github.com/Lucas-devSoft/Python/assets/111676352/5f89a5df-5c39-41b0-a041-c42186e95691)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/b735486b-3c8b-4bcb-ab50-05e884ee0158)
 
-- **Error (Menú)**
+- **Error - Tipo de conexión**
 
-![error menu](https://github.com/Lucas-devSoft/Python/assets/111676352/ef446434-dcdc-40a0-af5d-5a4e4990f8cc)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/66c41a72-86c3-48da-8d3c-64d4034bd66c)
 
-- **Error (Tipo de Conexión)**
+- **Error en modo local - Creación de BD**
 
-![error_tipo](https://github.com/Lucas-devSoft/Python/assets/111676352/4a6544a6-1fd4-42da-836b-e63a590c20d9)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/dfcc12b9-6e68-4bb7-9b7d-997cfe577b47)
 
-- **Error (Crear BD)**
+- **Error en modo local - Creación del nombre de BD**
 
-![error crear](https://github.com/Lucas-devSoft/Python/assets/111676352/44383565-4873-4455-829b-15b002e0a827)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/ce0915db-c14c-41ce-9cad-bd67bbcd6ebe)
 
-- **Error (Campo Invalido)**
+- **Error - Menú**
 
-![error campo](https://github.com/Lucas-devSoft/Python/assets/111676352/1d4a1a36-2a46-4b91-835c-64c4630565c3)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/d8f935f7-0495-4dbd-8dc7-13ca04e5d28b)
 
-- **Error menu de formularios completo**
+- **Error - Campo**
 
-![error extendido](https://github.com/Lucas-devSoft/Python/assets/111676352/ea56470d-2ee7-4e89-9b29-d5dfd295cd32)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/417dc5bd-ff6f-459b-8568-74e8053ef391)
 
-- **Error de menu visualizaciones**
+- **Error - Formulario completado**
 
-![error visualizaciones](https://github.com/Lucas-devSoft/Python/assets/111676352/27403752-41aa-49ca-85c0-204342e8fc5c)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/7fb07f18-6094-4e56-ae54-0212c33a35b2)
+
+- **Error - Menú de guardadado activo**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/bf9e1251-d72d-451d-9dcf-9469d5352879)
+
+- **Error - Menú de visualización de datos**
+
+ ![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/87eb7a04-a52d-44c0-80f5-e481cd8ce3cd)
+
+- **Error - Retroceder**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/764cba03-b2db-404e-8a42-484380f1fcca)
 
 - **Mensaje de Cierre**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/78b94648-eddd-437e-a819-b0daf6bb0626)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/02dc6059-ab2b-40ce-97e5-ebcac99927c5)
 
 <hr>
 
