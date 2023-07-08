@@ -43,29 +43,27 @@
 
 *La función del banner en el programa consiste en proporcionar al usuario información detallada acerca de los cambios de estado de la conexión con la base de datos. En cada caso de conexión, se mostrará de manera precisa la información correspondiente.*
  
-- **Banner con conexión MongoDB Local**
+- **Banner activo con conexión**
 
-**Base de datos por defecto**
+**Local - Conectado a la BD por defecto**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/ee26f9ce-9263-46f8-aac6-14b64396ec78)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/63d3f25d-598d-4e2b-b182-d7a5557a4722)
 
-**Base de datos creada por el usuario**
+**Local - Conectado a la BD creada por el usuario**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/125426ac-f418-428a-80ec-9900f3d335f0)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/d4094247-7590-4f90-9a76-d4f81d68aa04)
 
-- **Banner con conexión MongoDB Atlas**
+**Atlas - Conectado a la BD por defecto**
 
-**Base de datos por defecto**
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/1e982239-ba3b-4b82-a6df-df3b04074b14)
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/ce6fcda0-1275-4d72-9c0d-b2a6350a710c)
+**Atlas - Conectado a la BD creada por el usuario**
 
-**Base de datos creada por el usuario**
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/e3f6efca-ab44-464b-bb4c-14b55e4d0f82)
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/ccb6b0b4-9218-4008-bf40-7efb2d0a5520)
+- **Banner inactivo sin Conexión**
 
-- **Banner sin Conexión**
-
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/44e91780-2f64-427e-9f1c-939f6043717f)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/7d8b406e-df00-4ee9-a0b8-56224b6c8663)
 
 ### Interacciones
 
@@ -75,47 +73,47 @@
 
 *La utilidad del nombre está en dar una bienvenida al usuario y además utilizar el mismo como registro para el historial de operaciones*
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/3af36988-2147-44e5-a6d7-88743c9db6ad)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/cc5a6bfd-522f-4a90-9a9f-ad5e59b4a2ae)
 
 - **Conexión a la Base de Datos**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/5314a5b6-5618-4d48-b8c7-24a3cbbc8532)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/debd97ad-2b64-42e4-8820-dde6475aca96)
 
 - **Tipo de Conexión**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/3a3b9842-55db-4c58-921c-24dab1fab029)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/92c2b597-2826-467c-8df3-baeb3053b999)
 
-- **Local - Crea una Base de Datos con el nombre que eliga el usuario**
+- **Local - Consulta si creá un BD con el nombre que eliga el usuario**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/2858b0a8-997c-47b2-9a66-e3e17712cd33)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/adca6973-35f7-43d1-9ff6-ac4c26a5ea2c)
 
 - **Local - Base de Datos creada y existente**
 
-**Base de datos creada**
+**Base de datos creada con exito**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/f3c54eb8-266a-4caa-9598-16ba23a3d0c4)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/e25e77c6-c1c6-4a84-a447-6ef311256aaf)
 
-**Base de datos existente**
+**Base de datos ya existente**
 
-![BD Existente](https://github.com/Lucas-devSoft/Python/assets/111676352/dab2d484-d649-4d4a-ae91-826cf9ccf368)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/bb126bc8-3561-40ef-b199-e9293c476c5c)
 
-- **Conexión al servidor en la nube de cuenta Atlas del usuario**
+- **Conexión al servidor en la nube de MongoDb Atlas**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/feb5bc2a-1d8a-4ed3-a260-a1b27a38eeeb)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/22405e59-5fa7-442b-ac3b-2a646ec39b51)
 
-- **Nube - Crea una Base de Datos desde Atlas con un nombre elegido por el usuario**
+- **Atlas - Consulta si creá una BD con el nombre elegido por el usuario**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/d8b7a81b-960f-4d90-ad84-1eb33d04ee0a)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/fffdf1f9-fcce-40fa-8849-afd547ea1425)
 
-- **Nube - Base de datos creada y existente**
+- **Atlas - Base de datos creada y existente**
 
-**Base de datos creada**
+**Base de datos creada exitosamente**
 
-![creada](https://github.com/Lucas-devSoft/Python/assets/111676352/942d6885-88a5-4527-985a-69e8f313a1cc)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/debfd9da-732c-4c13-be5e-67f44c8d8796)
 
-**Base de datos existente**
+**Base de datos ya existente**
 
-![existente](https://github.com/Lucas-devSoft/Python/assets/111676352/24777647-2b45-465e-82a1-4e1a51a235ed)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/7fdc0ba5-3a91-4bc4-8ba1-68575924ea50)
 
 - **Muestra el Historial de operaciones**
 
