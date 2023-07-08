@@ -161,7 +161,7 @@
 
 ## Ejecutable 
 
-*Si tenes Windows como sistema operativo aqui en Github dejo el ejecutable para descargar el programa y ejecutarlo. Una ves descargada la carpeta Ejecutable entras a la subcarpeta dist y ahi esta el main.exe*
+*Si tenes Windows como sistema operativo aqui en Github dejo el ejecutable para descargar el programa y ejecutarlo. Una ves descargada la carpeta "Ejecutable .exe" entras a la subcarpeta "dist" y ahi esta el main.exe*
 
 <hr>
    
