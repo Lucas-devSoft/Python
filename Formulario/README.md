@@ -135,7 +135,7 @@
 
 *La opcíón guardar no esta habilitada*
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/1da298d7-7368-47ce-a761-eb8f91b752f1)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/154d2e9c-7f9b-4605-a04d-fb1afb589905)
 
 - **Guardando los Datos**
 
@@ -181,19 +181,25 @@
 
 ![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/35cf999e-ced7-4846-a454-4908dc8603ad)
 
-- **Pasos previo para el envio de Gmail**
+- **Pasos previos para el envio de Gmail**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/5e2c9ba8-db08-4b3e-b2d8-6c3304a2fc28)
+**Ingreso de la cuenta**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/15a029d6-b734-496c-8f31-d1d56bded8ff)
+
+**Una vez ingresada a la cuenta**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/15a5a1a0-dde4-44f1-af10-0dd7437a347d)
 
 - **Envio del Email**
 
 *Mensaje enviado con exito*
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/ac83b385-864f-4436-9fb5-c5c503b65091)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/542e38b4-0236-477c-8fdd-fe4862332d9a)
 
 *Correo recibido con exito*
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/feea2a01-d72c-42c2-b133-44beda0825a1)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/6fd55cbe-89af-4876-b081-a9dd973ccd3b)
 
 <hr>
 
