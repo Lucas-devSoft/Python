@@ -117,15 +117,15 @@
 
 - **Muestra el Historial de operaciones**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/1d374f6c-9d55-4e08-902a-d87d1ecf1915)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/6ddad3d2-1bbe-435f-9b3f-8c8e3bbbb111)
 
 *En caso contrario, si el usuario está desconectado, recibirá un recordatorio indicando que no está conectado.*
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/376679f7-3064-4ea2-a3d5-eea1b2ba83f4)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/02db44ef-fd31-47e5-a46d-9c7f29d39805)
 
 - **Borrado de historial**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/6e869dc0-cb9c-4586-9b69-3e062b1d2317)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/f47261f4-0a94-4d1b-95a1-86bbf32b87c2)
 
 <hr>
 
@@ -133,25 +133,29 @@
 
 *La función del error es alertar al usuario en todo momento cuando haya ingresado una respuesta incorrecta. Por lo tanto, para poder avanzar en el flujo del programa, será necesario que vuelva a intentarlo hasta que ingrese los datos correctos; de lo contrario, los mensajes de error persistirán.*
 
-- **Error (Solicitud del Nombre)**
+- **Error - Solicitud Nombre**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/fb139e8b-daf7-45bb-bd38-c29e8c2ad21b)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/7ca2f5d8-b96e-4bfc-a87b-cb946f9e3326)
 
-- **Error (Conexión a la Base de Datos)**
+- **Error - Consulta de conexión a la BD**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/13f4baa4-ee52-4155-94be-66a805dd9cd3)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/1595d068-0608-49bd-b588-9009b64bc04d)
 
-- **Error (Menú)**
+- **Error - Elección de opciones del menú**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/1a80eedf-eeb2-40b5-951a-f58bc51c1c25)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/a10aa0ce-95b4-4bfe-9591-fe61c432f128)
 
-- **Error (Tipo de Conexión)**
+- **Error - Consulta sobre el tipo de conexión**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/60daba34-9bbb-483f-a967-d226a1746ff3)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/c26c314a-eb9d-41e3-8af8-b32452211c65)
 
-- **Error (Datos Invalidos)**
+- **Error - Consulta sobre la generación de BD**
 
-![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/9c94c9b1-a3c9-4b36-ab07-20c369d20bfb)
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/d207e071-1b10-4b15-a7a0-15a9c90ab12b)
+
+- **Error - Formato del prompts**
+
+![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/dcfc0fac-189a-4bbf-8ef0-40f6106c5eeb)
 
 <hr>
 
