@@ -17,7 +17,7 @@
  
 ## Descripción del Proyecto
  
-*El proyecto se desarrolló en el entorno de Windows utilizando el IDE Visual Studio Code, y está diseñado para ser ejecutado en la terminal del sistema operativo. Se trata de una calculadora que ofrece diversas funcionalidades adicionales en comparación con una calculadora clásica. El usuario puede interactuar con la calculadora y tiene la opción de guardar la información de sus operaciones utilizando una base de datos como MongoDB, que está implementada en el proyecto.*
+*El proyecto trata de una calculadora que ofrece funcionalidades adicionales a una calculadora tradicional de (suma,resta, multiplicación y división). Este programa le ofrece al usuario la opción de guardar los datos que se recibe como resultado en una base de datos en este caso el proyecto lleva una conexión a MongoDB forma local o en la nube. El proyecto se desarrolló en el entorno de Windows utilizando el IDE Visual Studio Code, y está diseñado para ser ejecutado en la terminal del sistema operativo.*
  
 ## Herramientas Utilizadas
  
