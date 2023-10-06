@@ -17,13 +17,13 @@
  
 ## Descripción del Proyecto
  
-*El proyecto trata de una calculadora que ofrece funcionalidades adicionales a una calculadora tradicional de (suma,resta, multiplicación y división). Este programa le ofrece al usuario la opción de guardar los datos que se recibe como resultado en una base de datos en este caso el proyecto lleva una conexión a MongoDB forma local o en la nube. El proyecto se desarrolló en el entorno de Windows utilizando el IDE Visual Studio Code, y está diseñado para ser ejecutado en la terminal del sistema operativo.*
+*El proyecto trata de una calculadora que ofrece funcionalidades adicionales a una calculadora tradicional de (suma, resta, multiplicación y división). Este programa le ofrece al usuario la opción de guardar los datos que se recibe como resultado en una base de datos en este caso el proyecto lleva una conexión a MongoDB forma local o en la nube. El proyecto se desarrolló en el entorno de Windows utilizando el IDE Visual Studio Code, y está diseñado para ser ejecutado en la terminal del sistema operativo.*
  
 ## Herramientas Utilizadas
  
 ### Entorno Virtual
 
-*En el proyecto, empleo los módulos necesarios mediante un entorno virtual para brindar un acceso sencillo a la aplicación sin requerir ninguna descarga en el sistema del usuario. Todos los componentes necesarios están instalados en el entorno virtual, lo que permite ejecutarlo en la consola de su propio sistema.*
+*Instale los módulos necesarios en un entorno virtual llamado 'env' para brindar un acceso rápido y sencillo a la aplicación para evitar la descarga o instalación en el equipo del usuario. Todos los componentes necesarios están instalados en el entorno virtual, lo que hace funcional al programa ejecutandolo desde la consola desde 'env'.*
  
 ### Módulos
  
@@ -31,11 +31,11 @@
 
 ### Programación
  
-*El programa fue desarrollado utilizando el lenguaje de programación Python. Los códigos se estructuraron en módulos separados, lo que facilita realizar modificaciones de manera más sencilla en secciones específicas del programa. Esta práctica no solo mejora la flexibilidad para modificar el software, sino que también contribuye a mantener un código más organizado y descriptivo.*
+*Fue desarrollado utilizando el lenguaje de programación Python. El código de este proyecto esta dividido en módulos lo que facilita realizar modificaciones de manera más sencilla en secciones específicas del programa. Esta práctica no solo mejora la flexibilidad para modificar el software, sino que también contribuye a mantener un código más organizado y descriptivo.*
  
 ### Base de Datos
  
-*El proyecto utiliza la base de datos MongoDB y ha sido implementado para generar un historial de operaciones.*
+*se puede utilizar la base de datos MongoDB en firma local o en la nube para generar el historial de operaciones.*
  
 ## Funcionalidades
  
