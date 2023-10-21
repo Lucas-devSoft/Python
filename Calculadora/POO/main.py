@@ -983,11 +983,11 @@ if __name__ == "__main__":
     # Comienzo del programa
     while True:
 
-        usuario = print (programa.nombre_validar())
+        usuario = programa.nombre_validar()
 
-        servidor, estado, base, documento = print(programa.ConexionBD()[0:4])
+        servidor, estado, base, documento = programa.ConexionBD()[0:4]
 
-        print(programa.menuCalculadora(
-            usuario, servidor, estado, base, documento))
+        programa.menuCalculadora(
+            usuario, servidor, estado, base, documento)
 
         break
