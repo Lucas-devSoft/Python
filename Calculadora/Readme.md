@@ -8,8 +8,6 @@
 - Galeria
 - Desarrollador
 
-
-
 ## Introducción
 
 ***En este primer proyecto me tome la libertad de realizar 2 formas distintas de desarrollar este mismo programa, es decir utilice el tipo de programación secuencial (paso a paso) y la otra forma orientado a objetos (clase y objeto). Esta app fue codificada con el IDE Visual Studio Code con el lenguaje de programación python para ser ejecutado con la consola de Windows. El proyecto cuenta con las 4 operaciones basicas (suma, resta, multiplcación, división) sin embargo a este proyecto personal les añadi mas funcionalidades con los que se podra interactuar (potencia, radicacion, par o impar y primos) ademas le implemente la posibilidad de guardar las operaciones que se realizan mediante una base de datos noSQL como MONGODB***
@@ -18,17 +16,26 @@
 
 ## Utilidades
 
-***En este proyecto utilice distintos módulos de trabajo que me permitieron mejorar el programa visualmente al ejecutarlo y ademas la funcionalidad de conectarme a la base de datos***
+***En este proyecto utilice distintos módulos de trabajo que me permitieron mejorar el programa tanto visualmente al ejecutarlo y además la funcionalidad de poder conectarme a una base de datos tanto local como en la nube***
 
 > [!NOTE]
->  `Colorama` **Este módulo se utilizó para mejorar la presentación gráfica del proyecto dandole color a la consola**
+>  `Colorama` **Este módulo se utilizó para mejorar la presentación gráfica del proyecto dandole colores a la consola**
 
 > [!NOTE]
-> `Pymongo` **Este módulo se utilizó para generar la conexión con el servidor de la base de datos de MongoDB tanto de forma local como en la nube**
+> `Pymongo` **Este módulo se utilizó para generar la conexión con el servidor de la base de datos de MongoDB.**
+
+> [!IMPORTANT]
+> `pip install` **Se debe instalar los modulos mensionados para cumplir con los requisitos del programa**
 
 <br>
 <hr>
 
 ## Galeria
 
-***En esta sección del repositorio ire presentando el proyecto en funcionamiento compartiendo con usted cada etapa del programa***
+***En esta sección del repositorio ire presentando el proyecto en funcionamiento compartiendo con usted cada etapa del programa mediante imagenes.***
+
+### Cumple la condición
+
+
+
+### Tipo de Errores
