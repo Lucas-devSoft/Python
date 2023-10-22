@@ -42,21 +42,21 @@
 
 ***En esta sección del repositorio iré presentando el proyecto en funcionamiento compartiendo con usted cada etapa del programa mediante imágenes.***
 
-### Cumplio la condición
+:heavy_check_mark: ### Cumplio la condición
 
-:heavy_check_mark: **Nombre**
+- **Nombre**
   
 ![Sin título2](https://github.com/Lucas-devSoft/Python/assets/111676352/3322577b-53e9-438a-bffc-38280cd2395d)
 
-:heavy_check_mark: **Conexión**
+- **Conexión**
 
 ![Sin título3](https://github.com/Lucas-devSoft/Python/assets/111676352/f9d7fabc-5081-404f-99d8-d1536a89a810)
 
-:heavy_check_mark: **Local**
+- **Local**
       
 ![Sin título4](https://github.com/Lucas-devSoft/Python/assets/111676352/32d2de20-ac85-4e7f-9078-afbeb89de626)
 
-:heavy_check_mark: **Cloud**
+- **Cloud**
 
 ![Sin título5](https://github.com/Lucas-devSoft/Python/assets/111676352/1df517a8-7aaa-4a96-9e94-064e17df21cb)
 
@@ -74,13 +74,13 @@
 
 <hr>
 
-### Errores
+:x: ### Errores
 
-:x: **Nombre**
+- **Nombre**
       
 ![Sin título](https://github.com/Lucas-devSoft/Python/assets/111676352/b2dc7895-be63-4d51-9edc-4c8916958eca)
 
-:x: **Conexión**
+- **Conexión**
       
 ![Sin título1](https://github.com/Lucas-devSoft/Python/assets/111676352/beb60c66-a40f-43c7-a967-5164556da0ea)
 
@@ -90,7 +90,7 @@
 
 ![Sin título1](https://github.com/Lucas-devSoft/Python/assets/111676352/a0315f10-1826-4bad-84e2-5847345de88c)
 
-:x: **Menú**
+- **Menú**
 
 - `ValueError`
 
@@ -100,7 +100,7 @@
 
 ![Sin título3](https://github.com/Lucas-devSoft/Python/assets/111676352/bec7b68f-39a4-4715-b215-c3990ec5427b)
 
-:x: **Operaciónes**
+- **Operaciónes**
 
 - `ValueError`
 
