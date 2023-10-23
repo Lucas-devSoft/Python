@@ -3,19 +3,20 @@
 
 # Proyecto personal n.º 1
 
-- Introducción del proyecto
-- Utilidades
-- Galería
-  - Cumplio la condición
+- [Introducción](Introduccion)
+- Utilidades [Utilidades]
+- Galería [Galería]
+  - Cumplimiento
       - Nombre
       - Conexión
       - Menú
+      - Operaciones
   - Errores
       - Nombre
       - Conexión
       - Menú
       - Operaciones
-- Desarrollador
+- Desarrollador [Desarrollador]
 
 ## Introducción
 
@@ -42,7 +43,7 @@
 
 ***En esta sección del repositorio iré presentando el proyecto en funcionamiento compartiendo con usted cada etapa del programa mediante imágenes.***
 
-### Cumplio la condición
+### Cumplimiento
 
 - :heavy_check_mark: **Nombre**
   
@@ -71,6 +72,10 @@
 - **Banner con conexión Cloud**
 
 ![Sin título1](https://github.com/Lucas-devSoft/Python/assets/111676352/da28ca10-97b3-4b18-8602-2037c1c3eccc)
+
+:heavy_check_mark: **Operaciones**
+
+![Sin título0](https://github.com/Lucas-devSoft/Python/assets/111676352/f7fc29a8-82ed-4a91-8737-b41ab97583d9)
 
 <hr>
 
