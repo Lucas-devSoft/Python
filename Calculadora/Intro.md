@@ -4,19 +4,19 @@
 # Proyecto personal n.º 1
 
 - [Introduccion](#introducción)
-- Utilidades [Utilidades]
-- Galería [Galería]
-  - Cumplimiento
+- [Utilidades](#Utilidades)
+- [Galeria](#Galeria)
+  - [Cumplimiento](#Cumplimiento)
       - Nombre
       - Conexión
       - Menú
       - Operaciones
-  - Errores
+  - [Errores](#Errores)
       - Nombre
       - Conexión
       - Menú
       - Operaciones
-- Desarrollador [Desarrollador]
+- [Desarrollador](#Desarrollador)
 
 ## Introducción
 
