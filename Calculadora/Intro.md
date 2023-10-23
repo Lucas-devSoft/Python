@@ -3,7 +3,7 @@
 
 # Proyecto personal n.º 1
 
-- [Introducción](Introduccion)
+- [Introduccion](https://github.com/Lucas-devSoft/Python/edit/main/Calculadora/Intro.md#introducci%C3%B3n)
 - Utilidades [Utilidades]
 - Galería [Galería]
   - Cumplimiento
