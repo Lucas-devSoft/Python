@@ -119,7 +119,7 @@
 
 ## Desarrollador
 
-![0](https://github.com/Lucas-devSoft/Python/assets/111676352/4625b1db-f159-4209-a05e-af3262090057)
+<img width = 150 src="https://github.com/Lucas-devSoft/Python/assets/111676352/4625b1db-f159-4209-a05e-af3262090057">
 
 [Linkedin](https://www.linkedin.com/in/lucasdevsoft2022)
 
