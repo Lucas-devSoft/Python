@@ -20,28 +20,32 @@
 
 ## Introducción
 
-***En este primer proyecto me tomé la libertad de realizar 2 formas distintas de desarrollar este mismo programa, es decir utilice el tipo de programación secuencial (paso a paso) y la otra forma orientada a objetos (clase y objeto). Esta app fue codificada con el IDE Visual Studio Code con el lenguaje de programación Python para ser ejecutado con la consola de Windows. El proyecto cuenta con las 4 operaciones básicas (suma, resta, multiplicación, división) sin embargo, a este proyecto personal les añadí más funcionalidades con los que se podrá interactuar (potencia, radicación, par o impar y primos) además le implemente la posibilidad de guardar las operaciones que se realizan mediante una base de datos noSQL como MongoDB***
+***En este primer proyecto, he decidido explorar distintas formas de desarrollar el mismo programa. Por un lado, he utilizado la programación secuencial, que sigue un enfoque paso a paso, y por otro lado, he optado por la programación orientada a objetos, utilizando clases y objetos.
+
+Esta aplicación fue codificada en el entorno de desarrollo Visual Studio Code, utilizando el lenguaje de programación Python. Puede ejecutarse a través de la consola de Windows.
+
+El proyecto incluye las cuatro operaciones matemáticas básicas: suma, resta, multiplicación y división. Sin embargo, como proyecto personal, he añadido funcionalidades adicionales con las que los usuarios pueden interactuar, como cálculo de potencias, raíces cuadradas, determinar si un número es par o impar, y verificar si un número es primo. Además, he implementado la posibilidad de guardar las operaciones realizadas utilizando una base de datos noSQL, como MongoDB.***
 
 <hr>
 
 ## Utilidades
 
-***En este proyecto utilicé distintos módulos de trabajo que me permitieron mejorar el programa tanto visualmente al ejecutarlo y además la funcionalidad de poder conectarme a una base de datos tanto local como en la nube***
+***En este proyecto, empleé diversos módulos de trabajo que contribuyeron significativamente a la mejora tanto en la apariencia visual del programa al ejecutarlo, como en su funcionalidad para conectar con bases de datos, ya sea en entornos locales o en la nube.***
 
 > [!NOTE]
->  `Colorama` **Este módulo se utilizó para mejorar la presentación gráfica del proyecto dandole colores a la consola**
+>  `Colorama` **Este módulo se empleó con el propósito de mejorar la presentación gráfica del proyecto, otorgándole color a la interfaz de la consola.**
 
 > [!NOTE]
-> `Pymongo` **Este módulo se utilizó para generar la conexión con el servidor de la base de datos de MongoDB.**
+> `Pymongo` **Este módulo se empleó con el propósito de establecer la conexión con el servidor de la base de datos de MongoDB..**
 
 > [!IMPORTANT]
-> `pip install` **Se debe instalar los módulos mensionados para cumplir con los requisitos del funcionamiento del programa**
+> `pip install` **Para cumplir con los requisitos de funcionamiento del programa, es necesario instalar los módulos mencionados.**
 
 <hr>
 
 ## Galería
 
-***En esta sección del repositorio iré presentando el proyecto en funcionamiento compartiendo con usted cada etapa del programa mediante imágenes.***
+***En esta sección, te guiaré a través del funcionamiento del proyecto, compartiendo contigo cada etapa del programa a través de imágenes.***
 
 ### Cumplimiento
 
@@ -61,7 +65,7 @@
 
 ![Sin título5](https://github.com/Lucas-devSoft/Python/assets/111676352/1df517a8-7aaa-4a96-9e94-064e17df21cb)
 
-> **Los datos de usuario, contraseña, nombre del cloud e id se obtendran un ves que uno se cree la cuenta en [MongoDB Atlas](https://www.mongodb.com/atlas) y podra utilizar su Base de datos en la nube** 
+> **La información del usuario, la contraseña, el nombre del servicio en la nube y la identificación se obtendrán una vez que se haya creado la cuenta en [MongoDB Atlas](https://www.mongodb.com/atlas) y podra ingresar con su Base de datos en la nube** 
 
 :heavy_check_mark: **Menú**
 
