@@ -20,9 +20,11 @@
 
 ## Introducción
 
-***En este primer proyecto, he decidido explorar distintas formas de desarrollar el mismo programa. Por un lado, he utilizado la programación secuencial, que sigue un enfoque paso a paso, y por otro lado, he optado por la programación orientada a objetos, utilizando clases y objetos.
-Esta aplicación fue codificada en el entorno de desarrollo Visual Studio Code, utilizando el lenguaje de programación Python. Puede ejecutarse a través de la consola de Windows.
-El proyecto incluye las cuatro operaciones matemáticas básicas: suma, resta, multiplicación y división. Sin embargo, como proyecto personal, he añadido funcionalidades adicionales con las que los usuarios pueden interactuar, como cálculo de potencias, raíces cuadradas, determinar si un número es par o impar, y verificar si un número es primo. Además, he implementado la posibilidad de guardar las operaciones realizadas utilizando una base de datos noSQL, como MongoDB.***
+***En este primer proyecto, he decidido explorar distintas formas de desarrollar el mismo programa. Por un lado, he utilizado la programación secuencial, que sigue un enfoque paso a paso, y por otro lado, he optado por la programación orientada a objetos, utilizando clases y objetos.***
+
+***Esta aplicación fue codificada en el entorno de desarrollo Visual Studio Code, utilizando el lenguaje de programación Python. Puede ejecutarse a través de la consola de Windows.***
+
+***El proyecto incluye las cuatro operaciones matemáticas básicas: suma, resta, multiplicación y división. Sin embargo, como proyecto personal, he añadido funcionalidades adicionales con las que los usuarios pueden interactuar, como cálculo de potencias, raíces cuadradas, determinar si un número es par o impar, y verificar si un número es primo. Además, he implementado la posibilidad de guardar las operaciones realizadas utilizando una base de datos noSQL, como MongoDB.***
 
 <hr>
 
